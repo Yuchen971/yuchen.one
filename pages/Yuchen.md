@@ -1,3 +1,3 @@
-- # [[Education]]
+- # [[📔 Education]]
 - # [[Internship & Research Experience]]
 - # [My Github page](https://github.com/Yuchen971)
