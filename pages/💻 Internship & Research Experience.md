@@ -1,4 +1,4 @@
-- ## ==Tsinghua University (Research Big Data Assistant)==
+- ## Tsinghua University (Research Big Data Assistant)
 	- Beijing, China (Feb 2021 - Jun 2021)
 	- Passed the global selection (admission rate <0.5%) and was admitted as the research big data assistant for the research group under School of Public Policy & Management and School of Environment, Tsinghua University to report to China’s State Council on the recommendations of structural planning.
 	- Collected data from API and other public dataset and built the database and schema of 293 China’s major cities’ social perception and urban renewal from 2000 to 2019
