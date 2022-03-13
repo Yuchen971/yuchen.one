@@ -1,10 +1,4 @@
-- # **Education**
-	- ==The University of Queensland==
-		- Date: Sep 2017 - Jun 2021
-		- Major: Civil Engineering
-	- ==University of Southern California==
-		- Date: Dec 2021 - Now
-		- Major: Analytics
+- [[Education]]
 - # **Internship & Research Eperience**
 	- ## ==Tsinghua University (Research Big Data Assistant)==
 		- Beijing, China (Feb 2021 - Jun 2021)
