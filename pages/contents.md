@@ -1,3 +1,4 @@
 - # Education
 	- **The University of Queensland**
-	-
+		- Date: Sep 2017 - Jun 2021
+		- Major: Civil En
