@@ -29,3 +29,6 @@
 		- Queensland, Australia (May 2019 - Aug 2019)
 		- Served as the columnist to create content to introduce the new technology.
 		- Served between the researchers and scientists to transform findings and insights into interactive visualizations in Python and successfully finish the presentations to the public.
+	- ## ==Summer Research of The University of Queensland==
+		- Queensland, Australia (Nov 2020 - Feb 2021)
+		-
