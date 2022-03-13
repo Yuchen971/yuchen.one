@@ -15,4 +15,11 @@
 			- Applied feature selection to find import features that can help reflect urban renewal rate like volume of application vehicle, visualized key correlation features for improving the model
 			- Successfully developed the first CDW-RF model in the world to find the rule of response between China’s economy metrics and urban renewal rate with a 0.91 R square and help the research to be published on Nature’s supplements journals.
 			- Proved the model followed the Zipf’s theory and was applicable to better help city classification and group processing.
-	-
+	- **Quantium**
+		- Date: Aug 2020 - Oct 2020
+		- Role: Data Analytics and Insights Intern/Supermarket strategy
+		- Understood the complexity of demographic and customer insights data and defined the core metrics
+		- Developed the ETL process to extract and store the data from store layouts, products, price and customer reviews.
+		- Visualized the relative KPIs and statistics testing process in Python to generate analysis on correlations among all the changes between data from all times.
+		- Evaluated the performance of changing strategies by applying Agglomerative Hierarchical Clustering to understand the weights and influence of each strategy, adjusting the parameter to help recommend the best strategy for product selections
+		- Implemented a profitable promotional strategy by introducing multiple-linear regression models to gauge the effectiveness of the promotions and evaluate whether these promotions’ effectiveness changed with time.
