@@ -1,0 +1,47 @@
+- {{renderer :tocgen,[[]],1}}
+- 信息
+	- `%` 括号跳转
+	- `*` 搜索光标所在单词并高亮
+	- `CTRL-R` redo
+	- `u` undo, `U` undo the whole line
+	- `/, ?` find  (forward and backword), `n` next result, `N` previous result
+	- `CTRL-u(d)` 滚屏
+- 变更/替换文本
+	- `r{char}` 用{char}替换光标下的字符
+	- `R` 替换模式
+	- `~` 切换光标所在字符的大小写，并且光标向右移
+	- `SHIFT+I+<comment-char>+ESC+ESC` 块插入
+		- 按`CTRL+V`进入块选择，选择完之后按照上述操作输入想插入的字符
+	- `X` 块删除
+		- 按`CTRL+V`进入块选择，然后`x`删除选中的字符
+	- `cw` change word
+	- `:s/old/new/g` 全局替换
+	- `:#,#s/old/new/g` where \#,# are the line numbers of the range of lines where the substitution is to be done.
+	- `:%s/old/new/g` to change every occurrence in the whole file.
+	- `:%s/old/new/gc` to find every occurrence in the whole file, with a prompt whether to substitute or not.
+- 删除文本
+	- `x, X` 删除光标下(前)的字符
+	- `d{motion}` 删除motion所代表范围内的文本
+		- 比如 `dw`删除光标所在单词中光标中以及后面的单词, `daw`删除光标所在单词, `d$`删除光标所在行后面的字符, `d0` 删除光标所在行前面的字符
+	- `[count]dd` 删除光标及以下一共[count]行
+	- `D` 删除光标所在行后面的字符, 相当于`d$`
+	- `:[range]d[elete]`删除[range]范围内的行
+		- 默认情况下删除当前光标所在行, 例如`:2d`删除第二行, `:2,3d`删除第二到第三行
+- 插入文件
+	- `:r [name]` 读取并插入[name]的文件内容到当前光标下
+	- `:r !{cmd}` 执行命令并且将命令的输出插入当前光标 :r !date
+- 插入文本
+	- `a, A` 在光标后(行尾)开始插入
+	- `i,I` 在光标前(行头)开始插入
+	- `o, O` 在当前光标下(上)新一行开始插入
+- 退出vim
+	- `:qa` 退出所有打开的文件
+	- `:cq` 忽略更改并退出所有打开的文件
+	- `:wq` 保存退出
+	- `:wqa` 保存退出所有文件
+	- `:[range]wq!` 只保存指定范围内的内容并且退出 (其他的删除)
+	- `ZZ` 保存并强制退出vim
+	- `ZQ` 强制退出, 不保存
+- 光标移动
+	- `w, b` next (previous) word
+	- `%` match {, [, (

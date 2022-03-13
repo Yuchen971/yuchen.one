@@ -1,0 +1,7 @@
+- Simple recursive algorithms (递归算法)
+	- [[recursion]]
+- Divide and conquer algorithms (分治算法)
+- Dynamic programming algorithms (动态规划)
+- Greedy force algorithms (贪心算法)
+- Brute force algorithms (暴力算法)
+- Randomized algorithms (随机算法)

@@ -1,0 +1,3 @@
+- Definition
+	- Also called: Ordering points to identify the clustering structure
+-

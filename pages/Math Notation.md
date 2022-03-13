@@ -1,0 +1,21 @@
+- # Linear Algebra
+	- $A$: Matrix
+	- ${A}^{\top}:$ Matrix Transpose
+	- $\mathbf{A}^{-1} $: Matrix Inverse
+	- $\nabla$: 梯度算子nabla, 空间各个方向上的全积分
+	- $\prod_{k=1}^{n} a_{k}$: 表示 $a_{1} a_{2} \dots a_{n}$
+	- $sgn$: 返回一个数的正负
+	- $I$: 单位矩阵 (identify matrix)
+	- $st.$ subject to (such that), 使得...满足..., 受约束的意思
+	- $argmax$: 函数 $y = f(x)$, $x_0 = argmax(f(x))$ 的意思就是参数 $x_0$ 满足 $f(x_0)$ 为 $f(x)$的最大值
+- # Set
+	- $a \in A:$ a is the element of set A
+	- $A \subseteq B:$ A is a subset of (or equal to) B
+	- $A \cup B:$ The union of A and B
+	- $A \cap B:$ The intersection of A and B
+	- $\left\{x \mid x^{2}=1\right\}:$ The set of all x with $$x^2=1$$
+- # Abbreviations
+	- iff: if and only if
+- # Statistics
+	- $iid$: Independent and identically distributed
+	- $\pi_k$ prior, [[先验概率]]

@@ -1,0 +1,11 @@
+- [[CheatSheet/ggplot2]]
+- [[CheatSheet/dplyr]] 提供了数据处理的语法，提供了一组一致的动词来解决最常见的数据处理难题。
+- [[tidyr]]
+- [[CheatSheet/purrr]] 提供一套完整且一致的工具来处理函数和向量
+- tibble 是对数据框的重新构想，保留了证明有效的时间，而舍弃了无效的时间。
+- [[stringr]] 旨在使使用字符串尽可能容易.
+- forcats 可以解决因为factor导致的常见问题
+- [[lubridate]] 用于 日期 以及 日期-时间 数据
+- dbplyr 通过将dplyr代码转换为SQL来使用远程数据库表。
+- dtplyr 通过自动转换为等效的但通常更快的data.table代码来提供data.table后端。
+- readr

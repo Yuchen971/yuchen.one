@@ -1,0 +1,5 @@
+- Packages
+	- [[Pandas]]
+	- [[MongoDB]]
+- Packages Manager
+	- [[anaconda]]

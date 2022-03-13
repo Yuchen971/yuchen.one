@@ -1,0 +1,2 @@
+- Definition
+	- quotient (商) resulting from the division of a residual by an estimate of its standard deviation, it is a form of a student's t-statistic, with the estimate of error varying between points

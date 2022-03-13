@@ -1,0 +1,4 @@
+- Notes
+	- [[Data Structures]]
+	- [[Algorithm]]
+-

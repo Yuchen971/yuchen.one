@@ -1,0 +1,6 @@
+- [cheat sheet](https://www.w3schools.com)
+- [[Python]]
+- [[R]]
+- [[Java]]
+- [[SQL]]
+- [[MongoDB]]
