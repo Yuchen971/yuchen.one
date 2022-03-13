@@ -31,4 +31,5 @@
 		- Served between the researchers and scientists to transform findings and insights into interactive visualizations in Python and successfully finish the presentations to the public.
 	- ## ==Summer Research of The University of Queensland==
 		- Queensland, Australia (Nov 2020 - Feb 2021)
-		-
+		- Assisted PhD candidates conducting laboratory-scale experiments to understand the hydraulic-geotechnical behaviors of a railway embankment and subgrade under repeated wetting and drying cycles and static and dynamic loading.
+		- Analyzed the experiment result in python and help uploaded the outcome to the cloud
