@@ -5,7 +5,7 @@
 	- **University of Southern California**
 		- Date: Dec 2021 - Now
 		- Major: Analytics
-- # **Internship**
+- # **Internship & Research Eperience**
 	- **Tsinghua University (Research Big Data Assistant)**
 		- Date: Feb 2021 - Jun 2021
 		- Work
@@ -21,4 +21,8 @@
 		- Visualized the relative KPIs and statistics testing process in Python to generate analysis on correlations among all the changes between data from all times.
 		- Evaluated the performance of changing strategies by applying Agglomerative Hierarchical Clustering to understand the weights and influence of each strategy, adjusting the parameter to help recommend the best strategy for product selections
 		- Implemented a profitable promotional strategy by introducing multiple-linear regression models to gauge the effectiveness of the promotions and evaluate whether these promotions’ effectiveness changed with time.
-	- Queensland Government, Queensland Water Modeling Network
+	- Queensland Government, Queensland Water Modeling Network (Government researcher)
+		- Date: Jan 2020 - Mar 2020
+		- Severed as the summer researcher to help government’s Reef 2050 Sustainability Plan to finish the model and report to find methods for 20% reduction in both total suspended solids and dissolved inorganic Nitrogen emissions from the Cattle Creek.
+		- Selected appropriate hydrological model and generated quality measures EMC and DWC values to reflect the target reduction.
+		- Applied data analysis to the social and economic factors in implementing the suggested changes to EMC and DWC
