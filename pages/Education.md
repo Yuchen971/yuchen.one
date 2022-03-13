@@ -1,0 +1,6 @@
+- ## ==The University of Queensland==
+	- Date: Sep 2017 - Jun 2021
+	- Major: Civil Engineering
+- ## ==University of Southern California==
+	- Date: Dec 2021 - Now
+	- Major: Analytics
