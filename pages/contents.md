@@ -8,4 +8,11 @@
 - # **Internship**
 	- **Tsinghua University**
 		- Date: Feb 2021 - Jun 2021
-		-
+		- Role: Research Big Data Assistant
+		- Work
+			- Passed the global selection (admission rate <0.5%) and was admitted as the research big data assistant for the research group under School of Public Policy & Management and School of Environment, Tsinghua University to report to China’s State Council on the recommendations of structural planning.
+			- Collected data from API and other public dataset and built the database and schema of 293 China’s major cities’ social perception and urban renewal from 2000 to 2019
+			- Applied feature selection to find import features that can help reflect urban renewal rate like volume of application vehicle, visualized key correlation features for improving the model
+			- Successfully developed the first CDW-RF model in the world to find the rule of response between China’s economy metrics and urban renewal rate with a 0.91 R square and help the research to be published on Nature’s supplements journals.
+			- Proved the model followed the Zipf’s theory and was applicable to better help city classification and group processing.
+	-
