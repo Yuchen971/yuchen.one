@@ -6,4 +6,6 @@
 		- Date: Dec 2021 - Now
 		- Major: Analytics
 - # **Internship**
-	-
+	- **Tsinghua University**
+		- Date: Feb 2021 - Jun 2021
+		-
