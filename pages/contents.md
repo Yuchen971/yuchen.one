@@ -7,25 +7,25 @@
 		- Major: Analytics
 - # **Internship & Research Eperience**
 	- ## ==Tsinghua University (Research Big Data Assistant)==
-		- Beijing, China Feb 2021 - Jun 2021
+		- Beijing, China (Feb 2021 - Jun 2021)
 		- Passed the global selection (admission rate <0.5%) and was admitted as the research big data assistant for the research group under School of Public Policy & Management and School of Environment, Tsinghua University to report to China’s State Council on the recommendations of structural planning.
 		- Collected data from API and other public dataset and built the database and schema of 293 China’s major cities’ social perception and urban renewal from 2000 to 2019
 		- Applied feature selection to find import features that can help reflect urban renewal rate like volume of application vehicle, visualized key correlation features for improving the model
 		- Successfully developed the first CDW-RF model in the world to find the rule of response between China’s economy metrics and urban renewal rate with a 0.91 R square and help the research to be published on Nature’s supplements journals.
 		- Proved the model followed the Zipf’s theory and was applicable to better help city classification and group processing.
 	- ## ==Quantium (Data Analytics and Insights Intern/Supermarket strategy)==
-		- Date: Aug 2020 - Oct 2020
+		- Sydney, Australia (Aug 2020 - Oct 2020)
 		- Understood the complexity of demographic and customer insights data and defined the core metrics
 		- Developed the ETL process to extract and store the data from store layouts, products, price and customer reviews.
 		- Visualized the relative KPIs and statistics testing process in Python to generate analysis on correlations among all the changes between data from all times.
 		- Evaluated the performance of changing strategies by applying Agglomerative Hierarchical Clustering to understand the weights and influence of each strategy, adjusting the parameter to help recommend the best strategy for product selections
 		- Implemented a profitable promotional strategy by introducing multiple-linear regression models to gauge the effectiveness of the promotions and evaluate whether these promotions’ effectiveness changed with time.
 	- ## ==Queensland Government, Queensland Water Modeling Network (Government researcher)==
-		- Date: Jan 2020 - Mar 2020
+		- Queensland, Australia (Jan 2020 - Mar 2020)
 		- Severed as the summer researcher to help government’s Reef 2050 Sustainability Plan to finish the model and report to find methods for 20% reduction in both total suspended solids and dissolved inorganic Nitrogen emissions from the Cattle Creek.
 		- Selected appropriate hydrological model and generated quality measures EMC and DWC values to reflect the target reduction.
 		- Applied data analysis to the social and economic factors in implementing the suggested changes to EMC and DWC
 	- ## ==Hope (Researcher and columnist)==
-		- Date: May 2019 - Aug 2019
+		- Queensland, Australia (May 2019 - Aug 2019)
 		- Served as the columnist to create content to introduce the new technology.
 		- Served between the researchers and scientists to transform findings and insights into interactive visualizations in Python and successfully finish the presentations to the public.
