@@ -5,23 +5,23 @@
 	- Applied feature selection to find import features that can help reflect urban renewal rate like volume of application vehicle, visualized key correlation features for improving the model
 	- Successfully developed the first CDW-RF model in the world to find the rule of response between China’s economy metrics and urban renewal rate with a 0.91 R square and help the research to be published on Nature’s supplements journals.
 	- Proved the model followed the Zipf’s theory and was applicable to better help city classification and group processing.
-- ## ==Quantium (Data Analytics and Insights Intern/Supermarket strategy)==
+- ## Quantium (Data Analytics and Insights Intern/Supermarket strategy)
 	- Sydney, Australia (Aug 2020 - Oct 2020)
 	- Understood the complexity of demographic and customer insights data and defined the core metrics
 	- Developed the ETL process to extract and store the data from store layouts, products, price and customer reviews.
 	- Visualized the relative KPIs and statistics testing process in Python to generate analysis on correlations among all the changes between data from all times.
 	- Evaluated the performance of changing strategies by applying Agglomerative Hierarchical Clustering to understand the weights and influence of each strategy, adjusting the parameter to help recommend the best strategy for product selections
 	- Implemented a profitable promotional strategy by introducing multiple-linear regression models to gauge the effectiveness of the promotions and evaluate whether these promotions’ effectiveness changed with time.
-- ## ==Queensland Government, Queensland Water Modeling Network (Government researcher)==
+- ## Queensland Government, Queensland Water Modeling Network (Government researcher)
 	- Queensland, Australia (Jan 2020 - Mar 2020)
 	- Severed as the summer researcher to help government’s Reef 2050 Sustainability Plan to finish the model and report to find methods for 20% reduction in both total suspended solids and dissolved inorganic Nitrogen emissions from the Cattle Creek.
 	- Selected appropriate hydrological model and generated quality measures EMC and DWC values to reflect the target reduction.
 	- Applied data analysis to the social and economic factors in implementing the suggested changes to EMC and DWC
-- ## ==Hope (Researcher and columnist)==
+- ## Hope (Researcher and columnist)
 	- Queensland, Australia (May 2019 - Aug 2019)
 	- Served as the columnist to create content to introduce the new technology.
 	- Served between the researchers and scientists to transform findings and insights into interactive visualizations in Python and successfully finish the presentations to the public.
-- ## ==Summer Research of The University of Queensland==
+- ## Summer Research of The University of Queensland
 	- Queensland, Australia (Nov 2020 - Feb 2021)
 	- Assisted PhD candidates conducting laboratory-scale experiments to understand the hydraulic-geotechnical behaviors of a railway embankment and subgrade under repeated wetting and drying cycles and static and dynamic loading.
 	- Analyzed the experiment result in python and help uploaded the outcome to the cloud
