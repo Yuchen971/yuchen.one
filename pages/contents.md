@@ -7,7 +7,7 @@
 		- Major: Analytics
 - # **Internship & Research Eperience**
 	- ## ==Tsinghua University (Research Big Data Assistant)==
-		- Date: Feb 2021 - Jun 2021
+		- Beijing, China Feb 2021 - Jun 2021
 		- Passed the global selection (admission rate <0.5%) and was admitted as the research big data assistant for the research group under School of Public Policy & Management and School of Environment, Tsinghua University to report to China’s State Council on the recommendations of structural planning.
 		- Collected data from API and other public dataset and built the database and schema of 293 China’s major cities’ social perception and urban renewal from 2000 to 2019
 		- Applied feature selection to find import features that can help reflect urban renewal rate like volume of application vehicle, visualized key correlation features for improving the model
@@ -26,3 +26,6 @@
 		- Selected appropriate hydrological model and generated quality measures EMC and DWC values to reflect the target reduction.
 		- Applied data analysis to the social and economic factors in implementing the suggested changes to EMC and DWC
 	- ## ==Hope (Researcher and columnist)==
+		- Date: May 2019 - Aug 2019
+		- Served as the columnist to create content to introduce the new technology.
+		- Served between the researchers and scientists to transform findings and insights into interactive visualizations in Python and successfully finish the presentations to the public.
