@@ -1,51 +1,1944 @@
-[{:block/name "a",
+[{:block/name "0-1分布",
+  :block/created-at 1647146308970,
+  :block/updated-at 1647146308970}
+ {:block/name "1-_alpha",
+  :block/created-at 1647146309134,
+  :block/updated-at 1647146309134}
+ {:block/name "2022-02-01 tuesday",
+  :block/created-at 1647146307876,
+  :block/updated-at 1647146307876}
+ {:block/name "2022-02-03 thursday",
+  :block/created-at 1647146307877,
+  :block/updated-at 1647146307877}
+ {:block/name "2022-02-15 tuesday",
+  :block/created-at 1647146307878,
+  :block/updated-at 1647146307878}
+ {:block/name "2022-02-22 tuesday",
+  :block/created-at 1647146305982,
+  :block/updated-at 1647146305982}
+ {:block/name "2022-02-24 thursday",
+  :block/created-at 1647146305982,
+  :block/updated-at 1647146305982}
+ {:block/name "2022-03-01 tuesday",
+  :block/created-at 1647146305983,
+  :block/updated-at 1647146305983}
+ {:block/name "61f23283-1473-492c-b35d-6952253cb194",
+  :block/created-at 1647146308332,
+  :block/updated-at 1647146308332}
+ {:block/name "61f23283-4ccc-4166-b211-3e429f6f0db9",
+  :block/created-at 1647146310926,
+  :block/updated-at 1647146310926}
+ {:block/name "61f60fde-ef15-4237-b9b3-e62028290442",
+  :block/created-at 1647146308337,
+  :block/updated-at 1647146308337}
+ {:block/name "620076fe-6edf-42aa-beb2-5cc7dcc13f00",
+  :block/created-at 1647146310930,
+  :block/updated-at 1647146310930}
+ {:block/name "620ac899-c18f-4859-9ff7-2b76fa540b06",
+  :block/created-at 1647146306317,
+  :block/updated-at 1647146306317}
+ {:block/name "620b3f27-dc28-4327-8c67-62c5355a36e6",
+  :block/created-at 1647146306334,
+  :block/updated-at 1647146306334}
+ {:block/name "621c4dfb-5f6f-4cae-873c-0b8722cd91aa",
+  :block/created-at 1647146310242,
+  :block/updated-at 1647146310242}
+ {:block/name "621c53b0-b327-450e-bffe-093474b631b5",
+  :block/created-at 1647146309118,
+  :block/updated-at 1647146309118}
+ {:block/name "7966e105-61bc-4a47-b1a0-68b84c86e5e1",
+  :block/created-at 1647146309006,
+  :block/updated-at 1647146309006}
+ {:block/name "_alpha",
+  :block/created-at 1647146311317,
+  :block/updated-at 1647146311317}
+ {:block/name "a",
   :block/created-at 1643949092471,
   :block/updated-at 1643949092471}
+ {:block/name "acceptance region",
+  :block/created-at 1647146304751,
+  :block/updated-at 1647146304751}
+ {:block/name "acceptance regions",
+  :block/created-at 1647146304753,
+  :block/updated-at 1647146304753}
+ {:block/name "accumulating snapshot tables",
+  :block/created-at 1647146304782,
+  :block/updated-at 1647146304782}
+ {:block/name "additive",
+  :block/created-at 1647146304809,
+  :block/updated-at 1647146304809}
+ {:block/name "additive fact table",
+  :block/created-at 1647146304807,
+  :block/updated-at 1647146304807}
+ {:block/name "additive facts",
+  :block/created-at 1647146308528,
+  :block/updated-at 1647146308528}
+ {:block/name "adjusted r square",
+  :block/created-at 1647146308698,
+  :block/updated-at 1647146308698}
+ {:block/name "adjusted r-square",
+  :block/created-at 1647146308698,
+  :block/updated-at 1647146308698}
+ {:block/name "adjusted r2",
+  :block/created-at 1647146308696,
+  :block/updated-at 1647146308696}
+ {:block/name "adjusted r^2",
+  :block/created-at 1647146308697,
+  :block/updated-at 1647146308697}
+ {:block/name "agglomerative methods",
+  :block/created-at 1647146306340,
+  :block/updated-at 1647146306340}
+ {:block/name "aggregate fact table",
+  :block/created-at 1647146305976,
+  :block/updated-at 1647146305976}
+ {:block/name "aggregate fact tables",
+  :block/created-at 1647146308741,
+  :block/updated-at 1647146308741}
+ {:block/name "aic",
+  :block/created-at 1647146304734,
+  :block/updated-at 1647146304734}
+ {:block/name "akaike information criterion",
+  :block/created-at 1647146304735,
+  :block/updated-at 1647146304735}
+ {:block/name "algorithm",
+  :block/created-at 1647146304830,
+  :block/updated-at 1647146304830}
+ {:block/name "alternative hypothesis",
+  :block/created-at 1647146308779,
+  :block/updated-at 1647146308779}
+ {:block/name "anaconda",
+  :block/created-at 1647146308796,
+  :block/updated-at 1647146308796}
+ {:block/name "analysis of variance",
+  :block/created-at 1647146308823,
+  :block/updated-at 1647146308823}
+ {:block/name "ann",
+  :block/created-at 1647146311259,
+  :block/updated-at 1647146311259}
+ {:block/name "anova",
+  :block/created-at 1647146306428,
+  :block/updated-at 1647146306428}
+ {:block/name "anova test",
+  :block/created-at 1647146308824,
+  :block/updated-at 1647146308824}
+ {:block/name "ar",
+  :block/created-at 1647146304753,
+  :block/updated-at 1647146304753}
+ {:block/name "artificial key",
+  :block/created-at 1647146311035,
+  :block/updated-at 1647146311035}
+ {:block/name "artificial neural network",
+  :block/created-at 1647146311259,
+  :block/updated-at 1647146311259}
+ {:block/name "assessing model accuracy",
+  :block/created-at 1647146304853,
+  :block/updated-at 1647146304853}
+ {:block/name "assumption",
+  :block/created-at 1647146306773,
+  :block/updated-at 1647146306773}
+ {:block/name "assumptions",
+  :block/created-at 1647146308849,
+  :block/updated-at 1647146308849}
+ {:block/name "auc",
+  :block/created-at 1647146307501,
+  :block/updated-at 1647146307501}
+ {:block/name "autocorrelation",
+  :block/created-at 1647146304872,
+  :block/updated-at 1647146304872}
  {:block/name "b",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "bayes classifier",
+  :block/created-at 1647146304851,
+  :block/updated-at 1647146304851}
+ {:block/name "bayes decision boundaries",
+  :block/created-at 1647146308911,
+  :block/updated-at 1647146308911}
+ {:block/name "bayes decision boundary",
+  :block/created-at 1647146306777,
+  :block/updated-at 1647146306777}
+ {:block/name "bayes error rate",
+  :block/created-at 1647146308921,
+  :block/updated-at 1647146308921}
+ {:block/name "bayes theorem",
+  :block/created-at 1647146306749,
+  :block/updated-at 1647146306749}
+ {:block/name "bayes' theorem",
+  :block/created-at 1647146308945,
+  :block/updated-at 1647146308945}
+ {:block/name "bernoulli distribution",
+  :block/created-at 1647146308967,
+  :block/updated-at 1647146308967}
+ {:block/name "bernoulli experiment",
+  :block/created-at 1647146308966,
+  :block/updated-at 1647146308966}
+ {:block/name "bernoulli random variable",
+  :block/created-at 1647146304887,
+  :block/updated-at 1647146304887}
+ {:block/name "bernoulli trials",
+  :block/created-at 1647146308185,
+  :block/updated-at 1647146308185}
+ {:block/name "bias variance trade off",
+  :block/created-at 1647146304855,
+  :block/updated-at 1647146304855}
+ {:block/name "bias variance tradeoff",
+  :block/created-at 1647146304850,
+  :block/updated-at 1647146304850}
+ {:block/name "bias-variance tradeoff",
+  :block/created-at 1647146306779,
+  :block/updated-at 1647146306779}
+ {:block/name "binomial distribution",
+  :block/created-at 1647146311244,
+  :block/updated-at 1647146311244}
+ {:block/name "binomial random variable",
+  :block/created-at 1647146308190,
+  :block/updated-at 1647146308190}
+ {:block/name "bridge table",
+  :block/created-at 1647146305952,
+  :block/updated-at 1647146305952}
  {:block/name "c",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
  {:block/name "card",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "cdf",
+  :block/created-at 1647146311426,
+  :block/updated-at 1647146311426}
+ {:block/name "central limit theorem",
+  :block/created-at 1647146304913,
+  :block/updated-at 1647146304913}
+ {:block/name "characteristic equation",
+  :block/created-at 1647146306178,
+  :block/updated-at 1647146306178}
+ {:block/name "cheatsheet",
+  :block/created-at 1647146304986,
+  :block/updated-at 1647146304986}
+ {:block/name "cheatsheet/data.table",
+  :block/created-at 1647146305315,
+  :block/updated-at 1647146305315}
+ {:block/name "cheatsheet/dplyr",
+  :block/created-at 1647146305417,
+  :block/updated-at 1647146305417}
+ {:block/name "cheatsheet/ggplot2",
+  :block/created-at 1647146305460,
+  :block/updated-at 1647146305460}
+ {:block/name "cheatsheet/github",
+  :block/created-at 1647146304985,
+  :block/updated-at 1647146304985}
+ {:block/name "cheatsheet/mongodb",
+  :block/created-at 1647146305063,
+  :block/updated-at 1647146305063}
+ {:block/name "cheatsheet/pandas",
+  :block/created-at 1647146305108,
+  :block/updated-at 1647146305108}
+ {:block/name "cheatsheet/purrr",
+  :block/created-at 1647146305494,
+  :block/updated-at 1647146305494}
+ {:block/name "cheatsheet/python",
+  :block/created-at 1647146305152,
+  :block/updated-at 1647146305152}
+ {:block/name "cheatsheet/r",
+  :block/created-at 1647146305191,
+  :block/updated-at 1647146305191}
+ {:block/name "cheatsheet/tibble",
+  :block/created-at 1647146305527,
+  :block/updated-at 1647146305527}
+ {:block/name "chi square",
+  :block/created-at 1647146305553,
+  :block/updated-at 1647146305553}
+ {:block/name "chi-square",
+  :block/created-at 1647146305553,
+  :block/updated-at 1647146305553}
+ {:block/name "chi-square test",
+  :block/created-at 1647146305551,
+  :block/updated-at 1647146305551}
+ {:block/name "ci",
+  :block/created-at 1647146309119,
+  :block/updated-at 1647146309119}
+ {:block/name "classification",
+  :block/created-at 1647146306788,
+  :block/updated-at 1647146306788}
+ {:block/name "clt",
+  :block/created-at 1647146304914,
+  :block/updated-at 1647146304914}
+ {:block/name "clustering",
+  :block/created-at 1647146305598,
+  :block/updated-at 1647146305598}
+ {:block/name "coefficient of determination",
+  :block/created-at 1647146309088,
+  :block/updated-at 1647146309088}
+ {:block/name "collinearity",
+  :block/created-at 1647146306981,
+  :block/updated-at 1647146306981}
+ {:block/name "composite attribute",
+  :block/created-at 1647146309109,
+  :block/updated-at 1647146309109}
+ {:block/name "confidence interval",
+  :block/created-at 1647146308343,
+  :block/updated-at 1647146308343}
+ {:block/name "confidence intervals",
+  :block/created-at 1647146309121,
+  :block/updated-at 1647146309121}
+ {:block/name "confidence level",
+  :block/created-at 1647146309133,
+  :block/updated-at 1647146309133}
+ {:block/name "conformed dimension",
+  :block/created-at 1647146305638,
+  :block/updated-at 1647146305638}
+ {:block/name "conformed dimensions",
+  :block/created-at 1647146305639,
+  :block/updated-at 1647146305639}
+ {:block/name "confusion matrix",
+  :block/created-at 1647146307496,
+  :block/updated-at 1647146307496}
+ {:block/name "conic programming",
+  :block/created-at 1647146306607,
+  :block/updated-at 1647146306607}
+ {:block/name "contents",
+  :block/created-at 1647808280075,
+  :block/updated-at 1647808280075}
+ {:block/name "convex",
+  :block/created-at 1647146305655,
+  :block/updated-at 1647146305655}
+ {:block/name "convex function",
+  :block/created-at 1647146305655,
+  :block/updated-at 1647146305655}
+ {:block/name "convex optimization",
+  :block/created-at 1647146305656,
+  :block/updated-at 1647146305656}
+ {:block/name "cophenetic distance",
+  :block/created-at 1647146306341,
+  :block/updated-at 1647146306341}
+ {:block/name "cor",
+  :block/created-at 1647146309173,
+  :block/updated-at 1647146309173}
+ {:block/name "correlation",
+  :block/created-at 1647146308196,
+  :block/updated-at 1647146308196}
+ {:block/name "cov",
+  :block/created-at 1647146309191,
+  :block/updated-at 1647146309191}
+ {:block/name "covariance",
+  :block/created-at 1647146305675,
+  :block/updated-at 1647146305675}
+ {:block/name "covariance matrix",
+  :block/created-at 1647146305678,
+  :block/updated-at 1647146305678}
+ {:block/name "critical value",
+  :block/created-at 1647146308350,
+  :block/updated-at 1647146308350}
+ {:block/name "cross validation",
+  :block/created-at 1647146304853,
+  :block/updated-at 1647146304853}
+ {:block/name "cumulative distribution function",
+  :block/created-at 1647146311432,
+  :block/updated-at 1647146311432}
+ {:block/name "cv",
+  :block/created-at 1647146309211,
+  :block/updated-at 1647146309211}
+ {:block/name "d.f.",
+  :block/created-at 1647146309246,
+  :block/updated-at 1647146309246}
+ {:block/name "data integrity",
+  :block/created-at 1647146307872,
+  :block/updated-at 1647146307872}
+ {:block/name "data structure",
+  :block/created-at 1647146308556,
+  :block/updated-at 1647146308556}
+ {:block/name "data structure & algorithm",
+  :block/created-at 1647146306102,
+  :block/updated-at 1647146306102}
+ {:block/name "data structures",
+  :block/created-at 1647146306101,
+  :block/updated-at 1647146306101}
+ {:block/name "data warehousing",
+  :block/created-at 1647146305798,
+  :block/updated-at 1647146305798}
+ {:block/name "data warehousing architecture",
+  :block/created-at 1647146305981,
+  :block/updated-at 1647146305981}
+ {:block/name "data warehousing dimensional model",
+  :block/created-at 1647146305981,
+  :block/updated-at 1647146305981}
+ {:block/name "database",
+  :block/created-at 1647146307596,
+  :block/updated-at 1647146307596}
+ {:block/name "dbscan",
+  :block/created-at 1647146305589,
+  :block/updated-at 1647146305589}
+ {:block/name "decision boundary",
+  :block/created-at 1647146306757,
+  :block/updated-at 1647146306757}
+ {:block/name "decision surface",
+  :block/created-at 1647146309225,
+  :block/updated-at 1647146309225}
+ {:block/name "degree of freedom",
+  :block/created-at 1647146306428,
+  :block/updated-at 1647146306428}
+ {:block/name "degrees of freedom",
+  :block/created-at 1647146309247,
+  :block/updated-at 1647146309247}
+ {:block/name "dendrogram",
+  :block/created-at 1647146306342,
+  :block/updated-at 1647146306342}
+ {:block/name "density based clustering",
+  :block/created-at 1647146306118,
+  :block/updated-at 1647146306118}
+ {:block/name "density function",
+  :block/created-at 1647146306776,
+  :block/updated-at 1647146306776}
+ {:block/name "density-based clustering",
+  :block/created-at 1647146306120,
+  :block/updated-at 1647146306120}
+ {:block/name "derived attribute",
+  :block/created-at 1647146306134,
+  :block/updated-at 1647146306134}
+ {:block/name "determinant",
+  :block/created-at 1647146306142,
+  :block/updated-at 1647146306142}
+ {:block/name "dimension table",
+  :block/created-at 1647146305967,
+  :block/updated-at 1647146305967}
+ {:block/name "dimension tables",
+  :block/created-at 1647146309297,
+  :block/updated-at 1647146309297}
+ {:block/name "discrete random variable",
+  :block/created-at 1647146311374,
+  :block/updated-at 1647146311374}
+ {:block/name "discrete type random variable",
+  :block/created-at 1647146311375,
+  :block/updated-at 1647146311375}
+ {:block/name "distance",
+  :block/created-at 1647146306322,
+  :block/updated-at 1647146306322}
+ {:block/name "divisive methods",
+  :block/created-at 1647146306340,
+  :block/updated-at 1647146306340}
  {:block/name "doing",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
  {:block/name "done",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "dsci 559 introduction to data management",
+  :block/created-at 1647146305805,
+  :block/updated-at 1647146305805}
+ {:block/name "durbin watson statistic",
+  :block/created-at 1647146309340,
+  :block/updated-at 1647146309340}
+ {:block/name "durbin-watson statistic",
+  :block/created-at 1647146309341,
+  :block/updated-at 1647146309341}
+ {:block/name "eigenvalue",
+  :block/created-at 1647146305678,
+  :block/updated-at 1647146305678}
+ {:block/name "eigenvalues",
+  :block/created-at 1647146306181,
+  :block/updated-at 1647146306181}
+ {:block/name "eigenvector",
+  :block/created-at 1647146306195,
+  :block/updated-at 1647146306195}
+ {:block/name "eigenvectors",
+  :block/created-at 1647146306197,
+  :block/updated-at 1647146306197}
+ {:block/name "elastic net regression",
+  :block/created-at 1647146309994,
+  :block/updated-at 1647146309994}
+ {:block/name "entity relationship diagram",
+  :block/created-at 1647146309392,
+  :block/updated-at 1647146309392}
+ {:block/name "entity relationship model",
+  :block/created-at 1647146309393,
+  :block/updated-at 1647146309393}
+ {:block/name "entity-relationship model",
+  :block/created-at 1647146307582,
+  :block/updated-at 1647146307582}
+ {:block/name "er diagram",
+  :block/created-at 1647146307597,
+  :block/updated-at 1647146307597}
+ {:block/name "er model",
+  :block/created-at 1647146309388,
+  :block/updated-at 1647146309388}
+ {:block/name "erd",
+  :block/created-at 1647146309389,
+  :block/updated-at 1647146309389}
+ {:block/name "er图",
+  :block/created-at 1647146309389,
+  :block/updated-at 1647146309389}
+ {:block/name "er模型",
+  :block/created-at 1647146309390,
+  :block/updated-at 1647146309390}
+ {:block/name "ess",
+  :block/created-at 1647146306151,
+  :block/updated-at 1647146306151}
+ {:block/name "etl",
+  :block/created-at 1647146306162,
+  :block/updated-at 1647146306162}
+ {:block/name "euclidean distance",
+  :block/created-at 1647146306205,
+  :block/updated-at 1647146306205}
+ {:block/name "extract transform load",
+  :block/created-at 1647146306163,
+  :block/updated-at 1647146306163}
+ {:block/name "extract-transform-load",
+  :block/created-at 1647146306164,
+  :block/updated-at 1647146306164}
+ {:block/name "f distribution",
+  :block/created-at 1647146309458,
+  :block/updated-at 1647146309458}
+ {:block/name "f ratio",
+  :block/created-at 1647146309454,
+  :block/updated-at 1647146309454}
+ {:block/name "f statistic",
+  :block/created-at 1647146309454,
+  :block/updated-at 1647146309454}
+ {:block/name "f 分布",
+  :block/created-at 1647146309455,
+  :block/updated-at 1647146309455}
+ {:block/name "f-distribution",
+  :block/created-at 1647146309456,
+  :block/updated-at 1647146309456}
+ {:block/name "f-statistic",
+  :block/created-at 1647146310333,
+  :block/updated-at 1647146310333}
+ {:block/name "f-test",
+  :block/created-at 1647146306430,
+  :block/updated-at 1647146306430}
+ {:block/name "fact table",
+  :block/created-at 1647146305961,
+  :block/updated-at 1647146305961}
+ {:block/name "fact tables",
+  :block/created-at 1647146309514,
+  :block/updated-at 1647146309514}
+ {:block/name "factless fact table",
+  :block/created-at 1647146305973,
+  :block/updated-at 1647146305973}
  {:block/name "favorites",
   :block/created-at 1643949092471,
   :block/updated-at 1643949092471}
+ {:block/name "fully additive",
+  :block/created-at 1647146304812,
+  :block/updated-at 1647146304812}
+ {:block/name "fully additive fact table",
+  :block/created-at 1647146304810,
+  :block/updated-at 1647146304810}
+ {:block/name "fully additive table",
+  :block/created-at 1647146304811,
+  :block/updated-at 1647146304811}
+ {:block/name "f值",
+  :block/created-at 1647146309453,
+  :block/updated-at 1647146309453}
+ {:block/name "f检验",
+  :block/created-at 1647146309460,
+  :block/updated-at 1647146309460}
+ {:block/name "gaussian distribution",
+  :block/created-at 1647146310503,
+  :block/updated-at 1647146310503}
+ {:block/name "gaussian maximum likelihood classification",
+  :block/created-at 1647146306784,
+  :block/updated-at 1647146306784}
+ {:block/name "gd",
+  :block/created-at 1647146309544,
+  :block/updated-at 1647146309544}
+ {:block/name "github",
+  :block/created-at 1647146306232,
+  :block/updated-at 1647146306232}
+ {:block/name "gradient",
+  :block/created-at 1647146306613,
+  :block/updated-at 1647146306613}
+ {:block/name "gradient descent",
+  :block/created-at 1647146309542,
+  :block/updated-at 1647146309542}
+ {:block/name "gradient descent method",
+  :block/created-at 1647146309545,
+  :block/updated-at 1647146309545}
+ {:block/name "h0",
+  :block/created-at 1647146310559,
+  :block/updated-at 1647146310559}
+ {:block/name "h_0",
+  :block/created-at 1647146310559,
+  :block/updated-at 1647146310559}
+ {:block/name "h_1",
+  :block/created-at 1647146308781,
+  :block/updated-at 1647146308781}
+ {:block/name "h__alpha",
+  :block/created-at 1647146308782,
+  :block/updated-at 1647146308782}
+ {:block/name "hessian matrix",
+  :block/created-at 1647146306255,
+  :block/updated-at 1647146306255}
+ {:block/name "heteroscedasticity",
+  :block/created-at 1647146309563,
+  :block/updated-at 1647146309563}
+ {:block/name "heteroskedasticity",
+  :block/created-at 1647146309565,
+  :block/updated-at 1647146309565}
+ {:block/name "hierarchical clustering",
+  :block/created-at 1647146305586,
+  :block/updated-at 1647146305586}
+ {:block/name "hls__10largest_1644192707862_0",
+  :block/created-at 1647146309588,
+  :block/updated-at 1647146309588}
+ {:block/name "hls__banknote_1644197435867_0",
+  :block/created-at 1647146309612,
+  :block/updated-at 1647146309612}
+ {:block/name "homoscedasticity",
+  :block/created-at 1647146306406,
+  :block/updated-at 1647146306406}
+ {:block/name "homoskedasticity",
+  :block/created-at 1647146306407,
+  :block/updated-at 1647146306407}
+ {:block/name "hyperparameter",
+  :block/created-at 1647146306415,
+  :block/updated-at 1647146306415}
+ {:block/name "hyperparameters",
+  :block/created-at 1647146305725,
+  :block/updated-at 1647146305725}
+ {:block/name "hypothesis test",
+  :block/created-at 1647146308369,
+  :block/updated-at 1647146308369}
+ {:block/name "hypothesis testing",
+  :block/created-at 1647146309651,
+  :block/updated-at 1647146309651}
  {:block/name "in-progress",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "introduction to data structures",
+  :block/created-at 1647146305796,
+  :block/updated-at 1647146305796}
+ {:block/name "inverse variance",
+  :block/created-at 1647146309685,
+  :block/updated-at 1647146309685}
+ {:block/name "inverse-variance weighting",
+  :block/created-at 1647146309688,
+  :block/updated-at 1647146309688}
+ {:block/name "ise 529 predictive analytics",
+  :block/created-at 1647146306432,
+  :block/updated-at 1647146306432}
+ {:block/name "ise 535 data mining",
+  :block/created-at 1647146306456,
+  :block/updated-at 1647146306456}
+ {:block/name "iterm2",
+  :block/created-at 1647146306505,
+  :block/updated-at 1647146306505}
+ {:block/name "java",
+  :block/created-at 1647146306561,
+  :block/updated-at 1647146306561}
+ {:block/name "joint distribution",
+  :block/created-at 1647146306775,
+  :block/updated-at 1647146306775}
+ {:block/name "joint random variable",
+  :block/created-at 1647146308193,
+  :block/updated-at 1647146308193}
+ {:block/name "k-mean",
+  :block/created-at 1647146305590,
+  :block/updated-at 1647146305590}
+ {:block/name "k-means",
+  :block/created-at 1647146305598,
+  :block/updated-at 1647146305598}
+ {:block/name "k-nearest neighbor",
+  :block/created-at 1647146306647,
+  :block/updated-at 1647146306647}
+ {:block/name "kde",
+  :block/created-at 1647146309857,
+  :block/updated-at 1647146309857}
+ {:block/name "kernel density estimator",
+  :block/created-at 1647146307154,
+  :block/updated-at 1647146307154}
+ {:block/name "kit_lecture_1",
+  :block/created-at 1647146306616,
+  :block/updated-at 1647146306616}
+ {:block/name "kmean",
+  :block/created-at 1647146309790,
+  :block/updated-at 1647146309790}
+ {:block/name "kmeans",
+  :block/created-at 1647146309789,
+  :block/updated-at 1647146309789}
+ {:block/name "knn",
+  :block/created-at 1647146304852,
+  :block/updated-at 1647146304852}
+ {:block/name "k邻近",
+  :block/created-at 1647146306646,
+  :block/updated-at 1647146306646}
+ {:block/name "lasso regression",
+  :block/created-at 1647146309995,
+  :block/updated-at 1647146309995}
  {:block/name "later",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "lda",
+  :block/created-at 1647146306779,
+  :block/updated-at 1647146306779}
+ {:block/name "lda分类器",
+  :block/created-at 1647146306785,
+  :block/updated-at 1647146306785}
+ {:block/name "least square",
+  :block/created-at 1647146309896,
+  :block/updated-at 1647146309896}
+ {:block/name "least square method",
+  :block/created-at 1647146309894,
+  :block/updated-at 1647146309894}
+ {:block/name "lecturenote",
+  :block/created-at 1647146306617,
+  :block/updated-at 1647146306617}
+ {:block/name "leecode",
+  :block/created-at 1647146306662,
+  :block/updated-at 1647146306662}
+ {:block/name "leecode/recursion",
+  :block/created-at 1647146306676,
+  :block/updated-at 1647146306676}
+ {:block/name "level of significance",
+  :block/created-at 1647146311317,
+  :block/updated-at 1647146311317}
+ {:block/name "leverage statistic",
+  :block/created-at 1647146309927,
+  :block/updated-at 1647146309927}
+ {:block/name "likehood",
+  :block/created-at 1647146311283,
+  :block/updated-at 1647146311283}
+ {:block/name "likehood function",
+  :block/created-at 1647146311284,
+  :block/updated-at 1647146311284}
+ {:block/name "likelihood",
+  :block/created-at 1647146311285,
+  :block/updated-at 1647146311285}
+ {:block/name "likelihood function",
+  :block/created-at 1647146311286,
+  :block/updated-at 1647146311286}
+ {:block/name "linear discriminant analysis",
+  :block/created-at 1647146306427,
+  :block/updated-at 1647146306427}
+ {:block/name "linear programming",
+  :block/created-at 1647146306609,
+  :block/updated-at 1647146306609}
+ {:block/name "linear regression",
+  :block/created-at 1647146306425,
+  :block/updated-at 1647146306425}
+ {:block/name "lm distance",
+  :block/created-at 1647146306908,
+  :block/updated-at 1647146306908}
+ {:block/name "loading vector",
+  :block/created-at 1647146306197,
+  :block/updated-at 1647146306197}
+ {:block/name "logistic function",
+  :block/created-at 1647146310084,
+  :block/updated-at 1647146310084}
+ {:block/name "logistic regression",
+  :block/created-at 1647146306426,
+  :block/updated-at 1647146306426}
+ {:block/name "lr",
+  :block/created-at 1647146310016,
+  :block/updated-at 1647146310016}
+ {:block/name "lubridate",
+  :block/created-at 1647146311162,
+  :block/updated-at 1647146311162}
+ {:block/name "manhattan distance",
+  :block/created-at 1647146306871,
+  :block/updated-at 1647146306871}
+ {:block/name "map",
+  :block/created-at 1647146310227,
+  :block/updated-at 1647146310227}
+ {:block/name "marginal distribution",
+  :block/created-at 1647146306775,
+  :block/updated-at 1647146306775}
+ {:block/name "mass function",
+  :block/created-at 1647146311352,
+  :block/updated-at 1647146311352}
+ {:block/name "math notation",
+  :block/created-at 1647146306610,
+  :block/updated-at 1647146306610}
+ {:block/name "matrix",
+  :block/created-at 1647146306610,
+  :block/updated-at 1647146306610}
+ {:block/name "maximum a posteriori probability",
+  :block/created-at 1647146310226,
+  :block/updated-at 1647146310226}
+ {:block/name "maximum likelihood estimation",
+  :block/created-at 1647146310242,
+  :block/updated-at 1647146310242}
+ {:block/name "mean squared error",
+  :block/created-at 1647146304849,
+  :block/updated-at 1647146304849}
+ {:block/name "mean value theorem",
+  :block/created-at 1647146310279,
+  :block/updated-at 1647146310279}
+ {:block/name "meaningless key",
+  :block/created-at 1647146311034,
+  :block/updated-at 1647146311034}
+ {:block/name "minkowski distance",
+  :block/created-at 1647146306204,
+  :block/updated-at 1647146306204}
+ {:block/name "mle",
+  :block/created-at 1647146310244,
+  :block/updated-at 1647146310244}
+ {:block/name "mlr",
+  :block/created-at 1647146310338,
+  :block/updated-at 1647146310338}
+ {:block/name "mon-parametric model",
+  :block/created-at 1647146308650,
+  :block/updated-at 1647146308650}
+ {:block/name "mongodb",
+  :block/created-at 1647146306918,
+  :block/updated-at 1647146306918}
+ {:block/name "monte carlo method",
+  :block/created-at 1647146306930,
+  :block/updated-at 1647146306930}
+ {:block/name "mse",
+  :block/created-at 1647146304855,
+  :block/updated-at 1647146304855}
+ {:block/name "multi valued attribute",
+  :block/created-at 1647146306948,
+  :block/updated-at 1647146306948}
+ {:block/name "multi valued dimension",
+  :block/created-at 1647146306966,
+  :block/updated-at 1647146306966}
+ {:block/name "multi valued dimensions",
+  :block/created-at 1647146306966,
+  :block/updated-at 1647146306966}
+ {:block/name "multi-valued attribute",
+  :block/created-at 1647146305950,
+  :block/updated-at 1647146305950}
+ {:block/name "multi-valued attributes",
+  :block/created-at 1647146306946,
+  :block/updated-at 1647146306946}
+ {:block/name "multi-valued dimension",
+  :block/created-at 1647146305948,
+  :block/updated-at 1647146305948}
+ {:block/name "multi-valued dimensions",
+  :block/created-at 1647146306964,
+  :block/updated-at 1647146306964}
+ {:block/name "multicollinearity",
+  :block/created-at 1647146306980,
+  :block/updated-at 1647146306980}
+ {:block/name "multinomial random variable",
+  :block/created-at 1647146308191,
+  :block/updated-at 1647146308191}
+ {:block/name "multinomial random vector",
+  :block/created-at 1647146310300,
+  :block/updated-at 1647146310300}
+ {:block/name "multiple linear regression",
+  :block/created-at 1647146310011,
+  :block/updated-at 1647146310011}
+ {:block/name "multivalue attribute",
+  :block/created-at 1647146306950,
+  :block/updated-at 1647146306950}
+ {:block/name "multivalue dimension",
+  :block/created-at 1647146306968,
+  :block/updated-at 1647146306968}
+ {:block/name "multivalued attribute",
+  :block/created-at 1647146306949,
+  :block/updated-at 1647146306949}
+ {:block/name "multivariable gaussian distribution",
+  :block/created-at 1647146310387,
+  :block/updated-at 1647146310387}
+ {:block/name "multivariable normal",
+  :block/created-at 1647146309719,
+  :block/updated-at 1647146309719}
+ {:block/name "multivariable normal distribution",
+  :block/created-at 1647146308201,
+  :block/updated-at 1647146308201}
+ {:block/name "multivariate gaussian distribution",
+  :block/created-at 1647146310386,
+  :block/updated-at 1647146310386}
+ {:block/name "multivariate normal",
+  :block/created-at 1647146310389,
+  :block/updated-at 1647146310389}
+ {:block/name "naive bayes classifier",
+  :block/created-at 1647146306781,
+  :block/updated-at 1647146306781}
+ {:block/name "natural key",
+  :block/created-at 1647146305969,
+  :block/updated-at 1647146305969}
+ {:block/name "natural keys",
+  :block/created-at 1647146310425,
+  :block/updated-at 1647146310425}
+ {:block/name "nn",
+  :block/created-at 1647146311260,
+  :block/updated-at 1647146311260}
+ {:block/name "non parametric model",
+  :block/created-at 1647146310445,
+  :block/updated-at 1647146310445}
+ {:block/name "non parametric models",
+  :block/created-at 1647146310446,
+  :block/updated-at 1647146310446}
+ {:block/name "non-additive",
+  :block/created-at 1647146306994,
+  :block/updated-at 1647146306994}
+ {:block/name "non-additive fact table",
+  :block/created-at 1647146306991,
+  :block/updated-at 1647146306991}
+ {:block/name "non-hierarchical clustering",
+  :block/created-at 1647146305587,
+  :block/updated-at 1647146305587}
+ {:block/name "non-parametric model",
+  :block/created-at 1647146308644,
+  :block/updated-at 1647146308644}
+ {:block/name "non-parametric models",
+  :block/created-at 1647146310446,
+  :block/updated-at 1647146310446}
+ {:block/name "nonnatural key",
+  :block/created-at 1647146311037,
+  :block/updated-at 1647146311037}
+ {:block/name "nonstationarity",
+  :block/created-at 1647146310465,
+  :block/updated-at 1647146310465}
+ {:block/name "normal distribution",
+  :block/created-at 1647146308199,
+  :block/updated-at 1647146308199}
+ {:block/name "normal random variable",
+  :block/created-at 1647146308192,
+  :block/updated-at 1647146308192}
  {:block/name "now",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "null hypothesis",
+  :block/created-at 1647146309643,
+  :block/updated-at 1647146309643}
+ {:block/name "n维正态分布",
+  :block/created-at 1647146310385,
+  :block/updated-at 1647146310385}
+ {:block/name "objective function",
+  :block/created-at 1647146306605,
+  :block/updated-at 1647146306605}
+ {:block/name "ols",
+  :block/created-at 1647146309896,
+  :block/updated-at 1647146309896}
+ {:block/name "optics",
+  :block/created-at 1647146306118,
+  :block/updated-at 1647146306118}
+ {:block/name "ordinary least square",
+  :block/created-at 1647146309897,
+  :block/updated-at 1647146309897}
+ {:block/name "ots",
+  :block/created-at 1647146310576,
+  :block/updated-at 1647146310576}
+ {:block/name "p value",
+  :block/created-at 1647146310581,
+  :block/updated-at 1647146310581}
+ {:block/name "p-value",
+  :block/created-at 1647146309647,
+  :block/updated-at 1647146309647}
+ {:block/name "pandas",
+  :block/created-at 1647146307008,
+  :block/updated-at 1647146307008}
+ {:block/name "parametric model",
+  :block/created-at 1647146308645,
+  :block/updated-at 1647146308645}
+ {:block/name "parametric models",
+  :block/created-at 1647146310600,
+  :block/updated-at 1647146310600}
+ {:block/name "partial derivatives",
+  :block/created-at 1647146306612,
+  :block/updated-at 1647146306612}
+ {:block/name "pca",
+  :block/created-at 1647146306771,
+  :block/updated-at 1647146306771}
+ {:block/name "pdf",
+  :block/created-at 1647146311331,
+  :block/updated-at 1647146311331}
+ {:block/name "periodic fact",
+  :block/created-at 1647146307039,
+  :block/updated-at 1647146307039}
+ {:block/name "periodic fact table",
+  :block/created-at 1647146307040,
+  :block/updated-at 1647146307040}
+ {:block/name "periodic facts",
+  :block/created-at 1647146307039,
+  :block/updated-at 1647146307039}
+ {:block/name "periodic snapshot table",
+  :block/created-at 1647146307037,
+  :block/updated-at 1647146307037}
+ {:block/name "poisson distribution",
+  :block/created-at 1647146311366,
+  :block/updated-at 1647146311366}
+ {:block/name "posterior probability",
+  :block/created-at 1647146308946,
+  :block/updated-at 1647146308946}
+ {:block/name "power",
+  :block/created-at 1647146310891,
+  :block/updated-at 1647146310891}
+ {:block/name "precision",
+  :block/created-at 1647146309151,
+  :block/updated-at 1647146309151}
+ {:block/name "principal component",
+  :block/created-at 1647146307145,
+  :block/updated-at 1647146307145}
+ {:block/name "principal component analysis",
+  :block/created-at 1647146307169,
+  :block/updated-at 1647146307169}
+ {:block/name "principal components",
+  :block/created-at 1647146306452,
+  :block/updated-at 1647146306452}
+ {:block/name "principal components applications",
+  :block/created-at 1647146307167,
+  :block/updated-at 1647146307167}
+ {:block/name "prior",
+  :block/created-at 1647146311307,
+  :block/updated-at 1647146311307}
+ {:block/name "prior probability",
+  :block/created-at 1647146311307,
+  :block/updated-at 1647146311307}
+ {:block/name "probability density function",
+  :block/created-at 1647146306759,
+  :block/updated-at 1647146306759}
+ {:block/name "probability distribution function",
+  :block/created-at 1647146304885,
+  :block/updated-at 1647146304885}
+ {:block/name "probability mass function",
+  :block/created-at 1647146308967,
+  :block/updated-at 1647146308967}
+ {:block/name "pvalue",
+  :block/created-at 1647146310582,
+  :block/updated-at 1647146310582}
+ {:block/name "python",
+  :block/created-at 1647146310636,
+  :block/updated-at 1647146310636}
+ {:block/name "p值",
+  :block/created-at 1647146310580,
+  :block/updated-at 1647146310580}
+ {:block/name "q-q图",
+  :block/created-at 1647146310657,
+  :block/updated-at 1647146310657}
+ {:block/name "qda",
+  :block/created-at 1647146306778,
+  :block/updated-at 1647146306778}
+ {:block/name "qqplot",
+  :block/created-at 1647146308200,
+  :block/updated-at 1647146308200}
+ {:block/name "qq图",
+  :block/created-at 1647146310658,
+  :block/updated-at 1647146310658}
+ {:block/name "quadratic discriminant analysis",
+  :block/created-at 1647146306773,
+  :block/updated-at 1647146306773}
+ {:block/name "quadratic programming",
+  :block/created-at 1647146306608,
+  :block/updated-at 1647146306608}
+ {:block/name "quantile plots",
+  :block/created-at 1647146308206,
+  :block/updated-at 1647146308206}
+ {:block/name "quantile-quantile plot",
+  :block/created-at 1647146310656,
+  :block/updated-at 1647146310656}
+ {:block/name "r",
+  :block/created-at 1647146307413,
+  :block/updated-at 1647146307413}
+ {:block/name "r-square",
+  :block/created-at 1647146309091,
+  :block/updated-at 1647146309091}
+ {:block/name "r2",
+  :block/created-at 1647146309090,
+  :block/updated-at 1647146309090}
+ {:block/name "r^2",
+  :block/created-at 1647146309089,
+  :block/updated-at 1647146309089}
+ {:block/name "random variable",
+  :block/created-at 1647146305675,
+  :block/updated-at 1647146305675}
+ {:block/name "random vector",
+  :block/created-at 1647146309723,
+  :block/updated-at 1647146309723}
  {:block/name "readme",
   :block/created-at 1643956237019,
   :block/updated-at 1643956237019}
+ {:block/name "recall",
+  :block/created-at 1647146305594,
+  :block/updated-at 1647146305594}
+ {:block/name "receiver operating characteristic curve",
+  :block/created-at 1647146307500,
+  :block/updated-at 1647146307500}
+ {:block/name "rectangular distance",
+  :block/created-at 1647146306873,
+  :block/updated-at 1647146306873}
+ {:block/name "recursion",
+  :block/created-at 1647146304829,
+  :block/updated-at 1647146304829}
+ {:block/name "regex",
+  :block/created-at 1647146310761,
+  :block/updated-at 1647146310761}
+ {:block/name "regexp",
+  :block/created-at 1647146310762,
+  :block/updated-at 1647146310762}
+ {:block/name "regression",
+  :block/created-at 1647146310016,
+  :block/updated-at 1647146310016}
+ {:block/name "regression analysis",
+  :block/created-at 1647146306427,
+  :block/updated-at 1647146306427}
+ {:block/name "regular expression",
+  :block/created-at 1647146305060,
+  :block/updated-at 1647146305060}
+ {:block/name "regular expressions",
+  :block/created-at 1647146310761,
+  :block/updated-at 1647146310761}
+ {:block/name "reject region",
+  :block/created-at 1647146310561,
+  :block/updated-at 1647146310561}
+ {:block/name "reject regions",
+  :block/created-at 1647146310775,
+  :block/updated-at 1647146310775}
+ {:block/name "relational algebra",
+  :block/created-at 1647146307873,
+  :block/updated-at 1647146307873}
+ {:block/name "relational database",
+  :block/created-at 1647146307596,
+  :block/updated-at 1647146307596}
+ {:block/name "relational database design",
+  :block/created-at 1647146305797,
+  :block/updated-at 1647146305797}
+ {:block/name "relational database programming (sql)",
+  :block/created-at 1647146305797,
+  :block/updated-at 1647146305797}
+ {:block/name "residual plot",
+  :block/created-at 1647146310003,
+  :block/updated-at 1647146310003}
+ {:block/name "residual standard error",
+  :block/created-at 1647146310802,
+  :block/updated-at 1647146310802}
+ {:block/name "residual sum of square",
+  :block/created-at 1647146310834,
+  :block/updated-at 1647146310834}
+ {:block/name "ridge regression",
+  :block/created-at 1647146309995,
+  :block/updated-at 1647146309995}
+ {:block/name "rmse",
+  :block/created-at 1647146310863,
+  :block/updated-at 1647146310863}
+ {:block/name "roc",
+  :block/created-at 1647146306770,
+  :block/updated-at 1647146306770}
+ {:block/name "root mean square error",
+  :block/created-at 1647146310861,
+  :block/updated-at 1647146310861}
+ {:block/name "rotation matrix",
+  :block/created-at 1647146307157,
+  :block/updated-at 1647146307157}
+ {:block/name "rr",
+  :block/created-at 1647146309208,
+  :block/updated-at 1647146309208}
+ {:block/name "rse",
+  :block/created-at 1647146310008,
+  :block/updated-at 1647146310008}
+ {:block/name "rss",
+  :block/created-at 1647146309889,
+  :block/updated-at 1647146309889}
+ {:block/name "scores vectors",
+  :block/created-at 1647146310614,
+  :block/updated-at 1647146310614}
+ {:block/name "second-order cone programming",
+  :block/created-at 1647146306608,
+  :block/updated-at 1647146306608}
+ {:block/name "semi-additive",
+  :block/created-at 1647146308129,
+  :block/updated-at 1647146308129}
+ {:block/name "semi-additive fact table",
+  :block/created-at 1647146307036,
+  :block/updated-at 1647146307036}
+ {:block/name "semi-definite programming",
+  :block/created-at 1647146306607,
+  :block/updated-at 1647146306607}
+ {:block/name "sensitivity",
+  :block/created-at 1647146306768,
+  :block/updated-at 1647146306768}
+ {:block/name "sha",
+  :block/created-at 1647146304976,
+  :block/updated-at 1647146304976}
+ {:block/name "sigmoid",
+  :block/created-at 1647146310087,
+  :block/updated-at 1647146310087}
+ {:block/name "sigmoid函数",
+  :block/created-at 1647146310087,
+  :block/updated-at 1647146310087}
+ {:block/name "simple linear regression",
+  :block/created-at 1647146309084,
+  :block/updated-at 1647146309084}
+ {:block/name "smart key",
+  :block/created-at 1647146310426,
+  :block/updated-at 1647146310426}
+ {:block/name "snapshot fact table",
+  :block/created-at 1647146307041,
+  :block/updated-at 1647146307041}
+ {:block/name "snowflake schema",
+  :block/created-at 1647146305967,
+  :block/updated-at 1647146305967}
+ {:block/name "specificity",
+  :block/created-at 1647146306766,
+  :block/updated-at 1647146306766}
+ {:block/name "sql",
+  :block/created-at 1647146308087,
+  :block/updated-at 1647146308087}
+ {:block/name "sql constraints",
+  :block/created-at 1647146307872,
+  :block/updated-at 1647146307872}
+ {:block/name "sql properties",
+  :block/created-at 1647146307871,
+  :block/updated-at 1647146307871}
+ {:block/name "sqlite",
+  :block/created-at 1647146307872,
+  :block/updated-at 1647146307872}
+ {:block/name "sse",
+  :block/created-at 1647146305592,
+  :block/updated-at 1647146305592}
+ {:block/name "ssr",
+  :block/created-at 1647146308116,
+  :block/updated-at 1647146308116}
+ {:block/name "sst",
+  :block/created-at 1647146308510,
+  :block/updated-at 1647146308510}
+ {:block/name "star schema",
+  :block/created-at 1647146305977,
+  :block/updated-at 1647146305977}
+ {:block/name "stationary time series",
+  :block/created-at 1647146311012,
+  :block/updated-at 1647146311012}
+ {:block/name "statistical analysis with r - random vars",
+  :block/created-at 1647146306451,
+  :block/updated-at 1647146306451}
+ {:block/name "statistical analysis with r - tests",
+  :block/created-at 1647146306451,
+  :block/updated-at 1647146306451}
+ {:block/name "statistical hypothesis testing",
+  :block/created-at 1647146309652,
+  :block/updated-at 1647146309652}
+ {:block/name "stringr",
+  :block/created-at 1647146311161,
+  :block/updated-at 1647146311161}
+ {:block/name "student t test",
+  :block/created-at 1647146311068,
+  :block/updated-at 1647146311068}
+ {:block/name "student's t test",
+  :block/created-at 1647146311067,
+  :block/updated-at 1647146311067}
+ {:block/name "studentized residual",
+  :block/created-at 1647146308499,
+  :block/updated-at 1647146308499}
+ {:block/name "supervised",
+  :block/created-at 1647146306788,
+  :block/updated-at 1647146306788}
+ {:block/name "supervised learning",
+  :block/created-at 1647146308646,
+  :block/updated-at 1647146308646}
+ {:block/name "surrogate key",
+  :block/created-at 1647146305969,
+  :block/updated-at 1647146305969}
+ {:block/name "surrogate keys",
+  :block/created-at 1647146311033,
+  :block/updated-at 1647146311033}
+ {:block/name "synthetic key",
+  :block/created-at 1647146311036,
+  :block/updated-at 1647146311036}
+ {:block/name "t distribution",
+  :block/created-at 1647146311071,
+  :block/updated-at 1647146311071}
+ {:block/name "t statistic",
+  :block/created-at 1647146311066,
+  :block/updated-at 1647146311066}
+ {:block/name "t 分布",
+  :block/created-at 1647146311070,
+  :block/updated-at 1647146311070}
+ {:block/name "t-distribution",
+  :block/created-at 1647146311069,
+  :block/updated-at 1647146311069}
+ {:block/name "t-test",
+  :block/created-at 1647146306429,
+  :block/updated-at 1647146306429}
+ {:block/name "taylor expansion",
+  :block/created-at 1647146306615,
+  :block/updated-at 1647146306615}
+ {:block/name "test on one proportion",
+  :block/created-at 1647146308374,
+  :block/updated-at 1647146308374}
+ {:block/name "test statistic",
+  :block/created-at 1647146308349,
+  :block/updated-at 1647146308349}
+ {:block/name "test to compare k proportions",
+  :block/created-at 1647146308375,
+  :block/updated-at 1647146308375}
+ {:block/name "tidyr",
+  :block/created-at 1647146311159,
+  :block/updated-at 1647146311159}
+ {:block/name "tidyverse",
+  :block/created-at 1647146307397,
+  :block/updated-at 1647146307397}
+ {:block/name "time series",
+  :block/created-at 1647146311180,
+  :block/updated-at 1647146311180}
+ {:block/name "time series data",
+  :block/created-at 1647146311181,
+  :block/updated-at 1647146311181}
+ {:block/name "time-varying volatility",
+  :block/created-at 1647146311180,
+  :block/updated-at 1647146311180}
+ {:block/name "tnr",
+  :block/created-at 1647146311001,
+  :block/updated-at 1647146311001}
  {:block/name "todo",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "total sum of squares",
+  :block/created-at 1647146308509,
+  :block/updated-at 1647146308509}
+ {:block/name "tpr",
+  :block/created-at 1647146310890,
+  :block/updated-at 1647146310890}
+ {:block/name "transaction fact",
+  :block/created-at 1647146308531,
+  :block/updated-at 1647146308531}
+ {:block/name "transaction fact table",
+  :block/created-at 1647146304777,
+  :block/updated-at 1647146304777}
+ {:block/name "transaction facts",
+  :block/created-at 1647146308532,
+  :block/updated-at 1647146308532}
+ {:block/name "transformed data",
+  :block/created-at 1647146307162,
+  :block/updated-at 1647146307162}
+ {:block/name "ts",
+  :block/created-at 1647146311136,
+  :block/updated-at 1647146311136}
+ {:block/name "tss",
+  :block/created-at 1647146308508,
+  :block/updated-at 1647146308508}
+ {:block/name "type 1 error",
+  :block/created-at 1647146311388,
+  :block/updated-at 1647146311388}
+ {:block/name "type 1 error & type 2 error",
+  :block/created-at 1647146311391,
+  :block/updated-at 1647146311391}
+ {:block/name "type 2 error",
+  :block/created-at 1647146311388,
+  :block/updated-at 1647146311388}
+ {:block/name "type i error",
+  :block/created-at 1647146309150,
+  :block/updated-at 1647146309150}
+ {:block/name "type ii error",
+  :block/created-at 1647146309150,
+  :block/updated-at 1647146309150}
+ {:block/name "types of data structures",
+  :block/created-at 1647146308554,
+  :block/updated-at 1647146308554}
+ {:block/name "t值",
+  :block/created-at 1647146311066,
+  :block/updated-at 1647146311066}
+ {:block/name "t检验",
+  :block/created-at 1647146311065,
+  :block/updated-at 1647146311065}
+ {:block/name "unsupervised learning",
+  :block/created-at 1647146308646,
+  :block/updated-at 1647146308646}
+ {:block/name "variance",
+  :block/created-at 1647146305676,
+  :block/updated-at 1647146305676}
+ {:block/name "variance inflation factor",
+  :block/created-at 1647146309996,
+  :block/updated-at 1647146309996}
+ {:block/name "vif",
+  :block/created-at 1647146311203,
+  :block/updated-at 1647146311203}
+ {:block/name "vim",
+  :block/created-at 1647146308581,
+  :block/updated-at 1647146308581}
+ {:block/name "vim/vscode",
+  :block/created-at 1647146308580,
+  :block/updated-at 1647146308580}
  {:block/name "wait",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
  {:block/name "waiting",
   :block/created-at 1643949092471,
   :block/updated-at 1643949092471}
+ {:block/name "weighted least squares",
+  :block/created-at 1647146310006,
+  :block/updated-at 1647146310006}
+ {:block/name "what is statistical learning",
+  :block/created-at 1647146306424,
+  :block/updated-at 1647146306424}
  {:block/name "yuchen",
   :block/created-at 1643955911809,
-  :block/updated-at 1647146068596}
+  :block/updated-at 1647146430456}
+ {:block/name "z statistic",
+  :block/created-at 1647146308684,
+  :block/updated-at 1647146308684}
+ {:block/name "z-score",
+  :block/created-at 1647146304910,
+  :block/updated-at 1647146304910}
+ {:block/name "z-statistic",
+  :block/created-at 1647146308684,
+  :block/updated-at 1647146308684}
+ {:block/name "z值",
+  :block/created-at 1647146308683,
+  :block/updated-at 1647146308683}
+ {:block/name "z分数",
+  :block/created-at 1647146308683,
+  :block/updated-at 1647146308683}
+ {:block/name "z统计量",
+  :block/created-at 1647146308682,
+  :block/updated-at 1647146308682}
+ {:block/name "⛹🏻 self_learning",
+  :block/created-at 1647146311221,
+  :block/updated-at 1647146311221}
+ {:block/name "一致性维度",
+  :block/created-at 1647146305639,
+  :block/updated-at 1647146305639}
+ {:block/name "不可加事实",
+  :block/created-at 1647146306993,
+  :block/updated-at 1647146306993}
+ {:block/name "不可加事实表",
+  :block/created-at 1647146306994,
+  :block/updated-at 1647146306994}
+ {:block/name "不平稳性",
+  :block/created-at 1647146310467,
+  :block/updated-at 1647146310467}
+ {:block/name "两点分布",
+  :block/created-at 1647146308969,
+  :block/updated-at 1647146308969}
+ {:block/name "中值定理",
+  :block/created-at 1647146310279,
+  :block/updated-at 1647146310279}
+ {:block/name "中心极限定理",
+  :block/created-at 1647146304913,
+  :block/updated-at 1647146304913}
+ {:block/name "临界值",
+  :block/created-at 1647146309211,
+  :block/updated-at 1647146309211}
+ {:block/name "主成分分析",
+  :block/created-at 1647146307168,
+  :block/updated-at 1647146307168}
+ {:block/name "事务事实表",
+  :block/created-at 1647146308531,
+  :block/updated-at 1647146308531}
+ {:block/name "事实表",
+  :block/created-at 1647146309513,
+  :block/updated-at 1647146309513}
+ {:block/name "二次判别分析",
+  :block/created-at 1647146310678,
+  :block/updated-at 1647146310678}
+ {:block/name "二项分布",
+  :block/created-at 1647146308965,
+  :block/updated-at 1647146308965}
+ {:block/name "二项式随机变量",
+  :block/created-at 1647146309041,
+  :block/updated-at 1647146309041}
+ {:block/name "二项随机变量",
+  :block/created-at 1647146309042,
+  :block/updated-at 1647146309042}
+ {:block/name "交叉验证",
+  :block/created-at 1647146305694,
+  :block/updated-at 1647146305694}
+ {:block/name "人工神经网络",
+  :block/created-at 1647146310140,
+  :block/updated-at 1647146310140}
+ {:block/name "代理关键字",
+  :block/created-at 1647146311033,
+  :block/updated-at 1647146311033}
+ {:block/name "代理键",
+  :block/created-at 1647146311032,
+  :block/updated-at 1647146311032}
+ {:block/name "伯努利分布",
+  :block/created-at 1647146308969,
+  :block/updated-at 1647146308969}
+ {:block/name "伯努利实验",
+  :block/created-at 1647146308985,
+  :block/updated-at 1647146308985}
+ {:block/name "伯努利随机变量",
+  :block/created-at 1647146304888,
+  :block/updated-at 1647146304888}
+ {:block/name "似然",
+  :block/created-at 1647146310224,
+  :block/updated-at 1647146310224}
+ {:block/name "似然函数",
+  :block/created-at 1647146308939,
+  :block/updated-at 1647146308939}
+ {:block/name "假设性检验",
+  :block/created-at 1647146309653,
+  :block/updated-at 1647146309653}
+ {:block/name "假设检验",
+  :block/created-at 1647146309654,
+  :block/updated-at 1647146309654}
+ {:block/name "偏导数",
+  :block/created-at 1647146307017,
+  :block/updated-at 1647146307017}
+ {:block/name "先验概率",
+  :block/created-at 1647146306755,
+  :block/updated-at 1647146306755}
+ {:block/name "共线性",
+  :block/created-at 1647146306982,
+  :block/updated-at 1647146306982}
+ {:block/name "决定系数",
+  :block/created-at 1647146309086,
+  :block/updated-at 1647146309086}
+ {:block/name "决策边界",
+  :block/created-at 1647146309224,
+  :block/updated-at 1647146309224}
+ {:block/name "决策面",
+  :block/created-at 1647146309224,
+  :block/updated-at 1647146309224}
+ {:block/name "凸优化",
+  :block/created-at 1647146305657,
+  :block/updated-at 1647146305657}
+ {:block/name "凸函数",
+  :block/created-at 1647146305656,
+  :block/updated-at 1647146305656}
+ {:block/name "分位图",
+  :block/created-at 1647146310657,
+  :block/updated-at 1647146310657}
+ {:block/name "分布函数",
+  :block/created-at 1647146311433,
+  :block/updated-at 1647146311433}
+ {:block/name "半可加事实",
+  :block/created-at 1647146308128,
+  :block/updated-at 1647146308128}
+ {:block/name "半可加事实表",
+  :block/created-at 1647146308128,
+  :block/updated-at 1647146308128}
+ {:block/name "协方差",
+  :block/created-at 1647146309191,
+  :block/updated-at 1647146309191}
+ {:block/name "协方差矩阵",
+  :block/created-at 1647146305679,
+  :block/updated-at 1647146305679}
+ {:block/name "卡方值",
+  :block/created-at 1647146305552,
+  :block/updated-at 1647146305552}
+ {:block/name "卡方检验",
+  :block/created-at 1647146305552,
+  :block/updated-at 1647146305552}
+ {:block/name "参数模型",
+  :block/created-at 1647146310599,
+  :block/updated-at 1647146310599}
+ {:block/name "反方差",
+  :block/created-at 1647146309687,
+  :block/updated-at 1647146309687}
+ {:block/name "变异数分析",
+  :block/created-at 1647146308825,
+  :block/updated-at 1647146308825}
+ {:block/name "召回率",
+  :block/created-at 1647146310890,
+  :block/updated-at 1647146310890}
+ {:block/name "可加事实",
+  :block/created-at 1647146304809,
+  :block/updated-at 1647146304809}
+ {:block/name "可加事实表",
+  :block/created-at 1647146304808,
+  :block/updated-at 1647146304808}
+ {:block/name "同方差性",
+  :block/created-at 1647146306407,
+  :block/updated-at 1647146306407}
+ {:block/name "后验概率",
+  :block/created-at 1647146308943,
+  :block/updated-at 1647146308943}
+ {:block/name "周期快照事实表",
+  :block/created-at 1647146307038,
+  :block/updated-at 1647146307038}
+ {:block/name "回归平方和",
+  :block/created-at 1647146306153,
+  :block/updated-at 1647146306153}
+ {:block/name "均方差",
+  :block/created-at 1647146310264,
+  :block/updated-at 1647146310264}
+ {:block/name "均方根误差",
+  :block/created-at 1647146310863,
+  :block/updated-at 1647146310863}
+ {:block/name "备择假设",
+  :block/created-at 1647146308781,
+  :block/updated-at 1647146308781}
+ {:block/name "复合属性",
+  :block/created-at 1647146309110,
+  :block/updated-at 1647146309110}
+ {:block/name "多值属性",
+  :block/created-at 1647146306947,
+  :block/updated-at 1647146306947}
+ {:block/name "多值维度",
+  :block/created-at 1647146306967,
+  :block/updated-at 1647146306967}
+ {:block/name "多元回归",
+  :block/created-at 1647146310339,
+  :block/updated-at 1647146310339}
+ {:block/name "多元正态分布",
+  :block/created-at 1647146310384,
+  :block/updated-at 1647146310384}
+ {:block/name "多元线性回归",
+  :block/created-at 1647146310338,
+  :block/updated-at 1647146310338}
+ {:block/name "多元高斯分布",
+  :block/created-at 1647146310384,
+  :block/updated-at 1647146310384}
+ {:block/name "多变量高斯分布",
+  :block/created-at 1647146310386,
+  :block/updated-at 1647146310386}
+ {:block/name "多维分布随机变量",
+  :block/created-at 1647146309722,
+  :block/updated-at 1647146309722}
+ {:block/name "多重共线性",
+  :block/created-at 1647146306981,
+  :block/updated-at 1647146306981}
+ {:block/name "多项式随机变量",
+  :block/created-at 1647146310299,
+  :block/updated-at 1647146310299}
+ {:block/name "实对称矩阵",
+  :block/created-at 1647146306179,
+  :block/updated-at 1647146306179}
+ {:block/name "密度函数",
+  :block/created-at 1647146306750,
+  :block/updated-at 1647146306750}
+ {:block/name "密度聚类",
+  :block/created-at 1647146306119,
+  :block/updated-at 1647146306119}
+ {:block/name "常态分布",
+  :block/created-at 1647146310502,
+  :block/updated-at 1647146310502}
+ {:block/name "平稳型时间序列",
+  :block/created-at 1647146311014,
+  :block/updated-at 1647146311014}
+ {:block/name "异方差性",
+  :block/created-at 1647146309564,
+  :block/updated-at 1647146309564}
+ {:block/name "微分中值定理",
+  :block/created-at 1647146310279,
+  :block/updated-at 1647146310279}
+ {:block/name "总平方和",
+  :block/created-at 1647146308510,
+  :block/updated-at 1647146308510}
+ {:block/name "总离差平方和",
+  :block/created-at 1647146308509,
+  :block/updated-at 1647146308509}
+ {:block/name "接收者操作特征曲线",
+  :block/created-at 1647146307501,
+  :block/updated-at 1647146307501}
+ {:block/name "数据库原理",
+  :block/created-at 1647146307874,
+  :block/updated-at 1647146307874}
+ {:block/name "数据结构",
+  :block/created-at 1647146308556,
+  :block/updated-at 1647146308556}
+ {:block/name "方差",
+  :block/created-at 1647146308573,
+  :block/updated-at 1647146308573}
+ {:block/name "方差分析",
+  :block/created-at 1647146308822,
+  :block/updated-at 1647146308822}
+ {:block/name "方差比率检验",
+  :block/created-at 1647146309457,
+  :block/updated-at 1647146309457}
+ {:block/name "方差膨胀系数",
+  :block/created-at 1647146311204,
+  :block/updated-at 1647146311204}
+ {:block/name "方差齐性检验",
+  :block/created-at 1647146309459,
+  :block/updated-at 1647146309459}
+ {:block/name "旋转矩阵",
+  :block/created-at 1647146310877,
+  :block/updated-at 1647146310877}
+ {:block/name "时间序列",
+  :block/created-at 1647146309989,
+  :block/updated-at 1647146309989}
+ {:block/name "星型模型",
+  :block/created-at 1647146308150,
+  :block/updated-at 1647146308150}
+ {:block/name "显著性水平",
+  :block/created-at 1647146308350,
+  :block/updated-at 1647146308350}
+ {:block/name "曼哈顿距离",
+  :block/created-at 1647146306872,
+  :block/updated-at 1647146306872}
+ {:block/name "最大似然估计",
+  :block/created-at 1647146310244,
+  :block/updated-at 1647146310244}
+ {:block/name "最大后验概率估计",
+  :block/created-at 1647146310227,
+  :block/updated-at 1647146310227}
+ {:block/name "最小二乘法",
+  :block/created-at 1647146309895,
+  :block/updated-at 1647146309895}
+ {:block/name "朴素贝叶斯分类器",
+  :block/created-at 1647146308882,
+  :block/updated-at 1647146308882}
+ {:block/name "杜宾 瓦特森统计量",
+  :block/created-at 1647146309341,
+  :block/updated-at 1647146309341}
+ {:block/name "杜宾-瓦特森统计量",
+  :block/created-at 1647146309342,
+  :block/updated-at 1647146309342}
+ {:block/name "杠杆统计量",
+  :block/created-at 1647146309928,
+  :block/updated-at 1647146309928}
+ {:block/name "条件概率",
+  :block/created-at 1647146308944,
+  :block/updated-at 1647146308944}
+ {:block/name "极大似然估计",
+  :block/created-at 1647146310110,
+  :block/updated-at 1647146310110}
+ {:block/name "核密度估计",
+  :block/created-at 1647146309857,
+  :block/updated-at 1647146309857}
+ {:block/name "桥接表",
+  :block/created-at 1647146309060,
+  :block/updated-at 1647146309060}
+ {:block/name "梯度",
+  :block/created-at 1647146309556,
+  :block/updated-at 1647146309556}
+ {:block/name "梯度下降",
+  :block/created-at 1647146309544,
+  :block/updated-at 1647146309544}
+ {:block/name "梯度下降法",
+  :block/created-at 1647146309543,
+  :block/updated-at 1647146309543}
+ {:block/name "检验统计量",
+  :block/created-at 1647146309209,
+  :block/updated-at 1647146309209}
+ {:block/name "概率分布函数",
+  :block/created-at 1647146310626,
+  :block/updated-at 1647146310626}
+ {:block/name "概率密度函数",
+  :block/created-at 1647146309208,
+  :block/updated-at 1647146309208}
+ {:block/name "概率质量函数",
+  :block/created-at 1647146310624,
+  :block/updated-at 1647146310624}
+ {:block/name "欧几里得距离",
+  :block/created-at 1647146306206,
+  :block/updated-at 1647146306206}
+ {:block/name "正则表达式",
+  :block/created-at 1647146310763,
+  :block/updated-at 1647146310763}
+ {:block/name "正态分布",
+  :block/created-at 1647146310501,
+  :block/updated-at 1647146310501}
+ {:block/name "正态随机变量",
+  :block/created-at 1647146310539,
+  :block/updated-at 1647146310539}
+ {:block/name "残差图",
+  :block/created-at 1647146310787,
+  :block/updated-at 1647146310787}
+ {:block/name "残差平方和",
+  :block/created-at 1647146310837,
+  :block/updated-at 1647146310837}
+ {:block/name "残差标准差",
+  :block/created-at 1647146310805,
+  :block/updated-at 1647146310805}
+ {:block/name "残差的标准误差",
+  :block/created-at 1647146310804,
+  :block/updated-at 1647146310804}
+ {:block/name "汇总事实表",
+  :block/created-at 1647146308741,
+  :block/updated-at 1647146308741}
+ {:block/name "泊松分布",
+  :block/created-at 1647146311345,
+  :block/updated-at 1647146311345}
+ {:block/name "泰勒展开式",
+  :block/created-at 1647146311109,
+  :block/updated-at 1647146311109}
+ {:block/name "派生属性",
+  :block/created-at 1647146306135,
+  :block/updated-at 1647146306135}
+ {:block/name "海森矩阵",
+  :block/created-at 1647146306258,
+  :block/updated-at 1647146306258}
+ {:block/name "混淆矩阵",
+  :block/created-at 1647146309154,
+  :block/updated-at 1647146309154}
+ {:block/name "灵敏度",
+  :block/created-at 1647146310889,
+  :block/updated-at 1647146310889}
+ {:block/name "特异度",
+  :block/created-at 1647146310999,
+  :block/updated-at 1647146310999}
+ {:block/name "特征值",
+  :block/created-at 1647146306181,
+  :block/updated-at 1647146306181}
+ {:block/name "特征向量",
+  :block/created-at 1647146306196,
+  :block/updated-at 1647146306196}
+ {:block/name "特征方程",
+  :block/created-at 1647146309069,
+  :block/updated-at 1647146309069}
+ {:block/name "相关系数",
+  :block/created-at 1647146309174,
+  :block/updated-at 1647146309174}
+ {:block/name "真阳性率",
+  :block/created-at 1647146310889,
+  :block/updated-at 1647146310889}
+ {:block/name "真阴性率",
+  :block/created-at 1647146311000,
+  :block/updated-at 1647146311000}
+ {:block/name "矩阵",
+  :block/created-at 1647146310187,
+  :block/updated-at 1647146310187}
+ {:block/name "离散型随机变量",
+  :block/created-at 1647146311348,
+  :block/updated-at 1647146311348}
+ {:block/name "离散随机变量",
+  :block/created-at 1647146311346,
+  :block/updated-at 1647146311346}
+ {:block/name "第一型及第二型错误",
+  :block/created-at 1647146309650,
+  :block/updated-at 1647146309650}
+ {:block/name "第一型错误",
+  :block/created-at 1647146311389,
+  :block/updated-at 1647146311389}
+ {:block/name "第二型错误",
+  :block/created-at 1647146311389,
+  :block/updated-at 1647146311389}
+ {:block/name "简单线性回归",
+  :block/created-at 1647146310938,
+  :block/updated-at 1647146310938}
+ {:block/name "累积分布函数",
+  :block/created-at 1647146311328,
+  :block/updated-at 1647146311328}
+ {:block/name "累计快照事实表",
+  :block/created-at 1647146304783,
+  :block/updated-at 1647146304783}
+ {:block/name "线性判别分析",
+  :block/created-at 1647146306783,
+  :block/updated-at 1647146306783}
+ {:block/name "绝对值距离",
+  :block/created-at 1647146306872,
+  :block/updated-at 1647146306872}
+ {:block/name "维度表",
+  :block/created-at 1647146309296,
+  :block/updated-at 1647146309296}
+ {:block/name "维表",
+  :block/created-at 1647146309296,
+  :block/updated-at 1647146309296}
+ {:block/name "置信区间",
+  :block/created-at 1647146309120,
+  :block/updated-at 1647146309120}
+ {:block/name "置信度",
+  :block/created-at 1647146309134,
+  :block/updated-at 1647146309134}
+ {:block/name "联合假设检验",
+  :block/created-at 1647146309458,
+  :block/updated-at 1647146309458}
+ {:block/name "联合分布随机变量",
+  :block/created-at 1647146309722,
+  :block/updated-at 1647146309722}
+ {:block/name "聚合表",
+  :block/created-at 1647146308740,
+  :block/updated-at 1647146308740}
+ {:block/name "聚集事实表",
+  :block/created-at 1647146308739,
+  :block/updated-at 1647146308739}
+ {:block/name "自然键",
+  :block/created-at 1647146310425,
+  :block/updated-at 1647146310425}
+ {:block/name "自由度",
+  :block/created-at 1647146309246,
+  :block/updated-at 1647146309246}
+ {:block/name "自相关性",
+  :block/created-at 1647146304873,
+  :block/updated-at 1647146304873}
+ {:block/name "蒙特卡洛方法",
+  :block/created-at 1647146306932,
+  :block/updated-at 1647146306932}
+ {:block/name "蒙特卡洛模拟",
+  :block/created-at 1647146306933,
+  :block/updated-at 1647146306933}
+ {:block/name "蒙特卡罗方法",
+  :block/created-at 1647146306931,
+  :block/updated-at 1647146306931}
+ {:block/name "蒙特卡罗模拟",
+  :block/created-at 1647146306931,
+  :block/updated-at 1647146306931}
+ {:block/name "行列式",
+  :block/created-at 1647146306143,
+  :block/updated-at 1647146306143}
+ {:block/name "解释平方和",
+  :block/created-at 1647146306154,
+  :block/updated-at 1647146306154}
+ {:block/name "误差平方和",
+  :block/created-at 1647146306152,
+  :block/updated-at 1647146306152}
+ {:block/name "调整r-square",
+  :block/created-at 1647146308699,
+  :block/updated-at 1647146308699}
+ {:block/name "贝叶斯决策边界",
+  :block/created-at 1647146308911,
+  :block/updated-at 1647146308911}
+ {:block/name "贝叶斯分类器",
+  :block/created-at 1647146306769,
+  :block/updated-at 1647146306769}
+ {:block/name "贝叶斯定理",
+  :block/created-at 1647146306762,
+  :block/updated-at 1647146306762}
+ {:block/name "贝叶斯误差",
+  :block/created-at 1647146308922,
+  :block/updated-at 1647146308922}
+ {:block/name "质量函数",
+  :block/created-at 1647146311347,
+  :block/updated-at 1647146311347}
+ {:block/name "超参",
+  :block/created-at 1647146306414,
+  :block/updated-at 1647146306414}
+ {:block/name "边缘分布",
+  :block/created-at 1647146310142,
+  :block/updated-at 1647146310142}
+ {:block/name "逆方差",
+  :block/created-at 1647146309687,
+  :block/updated-at 1647146309687}
+ {:block/name "逆方差加权",
+  :block/created-at 1647146309699,
+  :block/updated-at 1647146309699}
+ {:block/name "逆方差加权平均",
+  :block/created-at 1647146309700,
+  :block/updated-at 1647146309700}
+ {:block/name "递归",
+  :block/created-at 1647146310717,
+  :block/updated-at 1647146310717}
+ {:block/name "逻辑函数",
+  :block/created-at 1647146310086,
+  :block/updated-at 1647146310086}
+ {:block/name "逻辑回归",
+  :block/created-at 1647146310115,
+  :block/updated-at 1647146310115}
+ {:block/name "逻辑曲线",
+  :block/created-at 1647146310086,
+  :block/updated-at 1647146310086}
+ {:block/name "闵可夫斯基距离",
+  :block/created-at 1647146306908,
+  :block/updated-at 1647146306908}
+ {:block/name "随机变量",
+  :block/created-at 1647146310686,
+  :block/updated-at 1647146310686}
+ {:block/name "雪花型模型",
+  :block/created-at 1647146310980,
+  :block/updated-at 1647146310980}
+ {:block/name "雪花模型",
+  :block/created-at 1647146310975,
+  :block/updated-at 1647146310975}
+ {:block/name "零假设",
+  :block/created-at 1647146310558,
+  :block/updated-at 1647146310558}
+ {:block/name "非事实事实表",
+  :block/created-at 1647146306216,
+  :block/updated-at 1647146306216}
+ {:block/name "非参数模型",
+  :block/created-at 1647146310445,
+  :block/updated-at 1647146310445}
+ {:block/name "非平稳性",
+  :block/created-at 1647146310468,
+  :block/updated-at 1647146310468}
+ {:block/name "非稳定性",
+  :block/created-at 1647146310467,
+  :block/updated-at 1647146310467}
+ {:block/name "高斯分布",
+  :block/created-at 1647146310504,
+  :block/updated-at 1647146310504}
+ {:block/name "黑塞矩阵",
+  :block/created-at 1647146306258,
+  :block/updated-at 1647146306258}
+ {:block/name "🏛 usc_analytics",
+  :block/created-at 1647146311478,
+  :block/updated-at 1647146311478}
  {:block/name "💻 internship & research experience",
   :block/created-at 1647145189435,
   :block/updated-at 1647145710344}
  {:block/name "📔 education",
-  :block/created-at 1647145136516, 
-  :block/updated-at 1647145721775}]
+  :block/created-at 1647145136516,
+  :block/updated-at 1647145721775}
+ {:block/name "📖 language",
+  :block/created-at 1647146311546,
+  :block/updated-at 1647146311546}
+ {:block/name "🖥 linux",
+  :block/created-at 1647146311559, 
+  :block/updated-at 1647146311559}]

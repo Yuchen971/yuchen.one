@@ -1,5 +1,4 @@
 - [My Github page](https://github.com/Yuchen971)
-- LectureNotes
-	- [[🏛 USC_Analytics]]
+- [[🏛 USC_Analytics]]
 - [[💻 Internship & Research Experience]]
 - [[📔 Education]]
