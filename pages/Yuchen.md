@@ -2,3 +2,4 @@
 - [[🏛 USC_Analytics]]
 - [[💻 Internship & Research Experience]]
 - [[📔 Education]]
+- [[CheatSheet]]
