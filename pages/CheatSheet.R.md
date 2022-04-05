@@ -1,9 +1,15 @@
 - **Rows**
-	- **数含有na的row/col有多少行**
+	- **含有na的row/col有多少行**
+	  collapsed:: true
 		- ```r
 		  sum(apply(infants, 1, anyNA))
 		  ```
 - **Columns**
+	- change column names with special char
+	  collapsed:: true
+		- ```r
+		  names(infants) = gsub("[\\^,. ]","_",names(infants))
+		  ```
 - **String**
 	- **转换所有的chr type to factor**
 	  collapsed:: true
@@ -30,8 +36,8 @@
 		  f = as.formula(paste(outcome, paste(predictor, collapse = "+"), sep = "~"))
 		  ```
 - **Probabilities**
-  collapsed:: true
 	- **R function for computing probabilities**
+	  collapsed:: true
 		- each function has a one-letter prefix followed by the root name of the function
 		- ```r
 		  # R function for the nomal random variable with mean a and standard deviation b are

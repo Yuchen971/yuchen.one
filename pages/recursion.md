@@ -110,12 +110,9 @@ alias:: 递归
 				- 原理
 				  collapsed:: true
 					- ![CleanShot_014 How to find Fibonacci numbers using Recursion_.mp4_20220312.png](../assets/CleanShot_014_How_to_find_Fibonacci_numbers_using_Recursion_.mp4_20220312_1647134034769_0.png)
--
 - Note
-  collapsed:: true
 	- trees, graphs, divide and conquer, greedy, dynamic programming ==> recursion a lot
 	- condition often not using recursion
-	  collapsed:: true
 		- design an algorithm to compute nth...
 		- Write an algorithm to compute nth...
 		- Write code to list the n...

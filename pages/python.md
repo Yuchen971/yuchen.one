@@ -1,5 +1,2 @@
-- Packages
-	- [[Pandas]]
-	- [[MongoDB]]
-- Packages Manager
-	- [[anaconda]]
+- {{query (page-property language Python)}}
+  query-properties:: [:page :type :created-at :updated-at]

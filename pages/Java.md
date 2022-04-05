@@ -332,7 +332,7 @@
 				    public static String color = "black"
 				  }
 				  ```
-- Bugs
+- [[Bugs]]
 	- Index 1 out of bounds for length
 	  collapsed:: true
 		- `for (int i = 0; i < args.length; i++)`

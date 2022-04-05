@@ -8,3 +8,9 @@ alias:: 方差
 	  \sigma_{x}^{2}=\frac{1}{n-1} \sum_{i=1}^{n}\left(x_{i}-\bar{x}\right)^{2}
 	  $$
 		- $n$表示样本量，$\bar{x}$表示观测样本的均值
+	- $$
+	  \operatorname{Var}[X]=E\left[(X-E[X])^{2}\right]=E\left[X^{2}\right]-E[X]^{2}
+	  $$
+	- $$
+	  \operatorname{Var}[f(x)]=E\left[(f(x)-E[f(x)])^{2}\right]
+	  $$

@@ -1,4 +1,5 @@
 - Notes
 	- [[Data Structures]]
 	- [[Algorithm]]
+	- [[Big O]]
 -

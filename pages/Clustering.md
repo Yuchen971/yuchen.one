@@ -14,7 +14,6 @@ topic:: K-means, clustering
 			- categories are unknown
 			- Want to discover categories of a new categorical variable called cluster
 	- **Types of clustering methods** #recall
-	  collapsed:: true
 		- [[Hierarchical clustering]]
 			- Clusters may have subclusters (nested)
 			- Nested clusters that may be displayed as a **tree**

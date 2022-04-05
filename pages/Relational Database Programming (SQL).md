@@ -1,4 +1,4 @@
-topic:: SQL properties, SQL constraints, data integrity, SQLite, relational algebra, 数据库原理
+topic:: SQL properties, SQL constraints, data integrity, relational algebra, 数据库原理
 date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 
 - # Notes
@@ -6,6 +6,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 	  collapsed:: true
 		- Definition
 		  background-color:: #793e3e
+		  collapsed:: true
 			- Formalism for **creating new relations from existing ones**
 			- Mathematical representation of data
 				- operands -- variables or values from which new values can be constructed.
@@ -18,6 +19,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 			- semistructured model = trees/graphs
 		- Basic concepts
 		  background-color:: #793e3e
+		  collapsed:: true
 			- _Tuple_
 				- **ordered** list of elements: (1), ("a", "b", "C") (**可以重复, 有序**), list 也是有序的
 			- _Set_
@@ -70,6 +72,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 	  collapsed:: true
 		- Union (basic set operation) (binary operation) (UNION)
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于SQL的`Union`
 			- Definition: all tuples in R1 **or** R2
 			- Notation: $R1 \cup R2$
@@ -81,6 +84,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- Example: {1,2,1} UNION {1,1,2,3,1} = {1,1,1,1,1,2,2,3}
 		- Difference (basic set operation) (binary operation) (EXCEPT)
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于SQL的`EXCEPT`
 			- Definition: all tuples in R1 and **not** in R2
 			- Notation: $R1-R2$
@@ -92,6 +96,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- Example: {1,2,1} – {1,2,2,3} = {1}.
 		- Selection: $\sigma$ (Unary operation 一元操作) (WHERE)
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于SQL中的`WHERE`
 			- Definition: Return all tuples which satisfy a condition
 			- Notation: $\sigma_c(R)$
@@ -109,6 +114,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- ![Screen Shot 2022-02-02 at 10.56.21 PM.png](../assets/Screen_Shot_2022-02-02_at_10.56.21_PM_1643871383196_0.png){:height 264, :width 313}
 		- Projection: $\pi$ (SELECTION)
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于`SELECT` 的子语句
 			- Notation: $R1 := \pi_L(R2)$
 			- Definition
@@ -130,6 +136,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- ![Screen Shot 2022-02-02 at 10.56.48 PM.png](../assets/Screen_Shot_2022-02-02_at_10.56.48_PM_1643871410773_0.png){:height 230, :width 223}
 		- Cartesian Production (笛卡尔乘积): $X$, sometimes denoted as *
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于SQL中两个表进行笛卡尔积(全匹配)得到的结果, 即SQL中进行多表链接不指定链接条件的情况
 			- Notation: $R3:=R1 \times R2$
 			- Definition
@@ -159,6 +166,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- ![Screen Shot 2022-02-02 at 10.57.41 PM.png](../assets/Screen_Shot_2022-02-02_at_10.57.41_PM_1643871463846_0.png){:height 277, :width 312}
 		- Renaming: $\rho$ (AS)
 		  background-color:: #793e3e
+		  collapsed:: true
 			- 相当于SQL中的`AS`
 			- Notation: $R1:=\rho_{R1(A1,...,An)}(R2)$, or $R1(A1,...,An):=R2$
 			- Definition
@@ -166,6 +174,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- ![Screen Shot 2022-02-02 at 7.30.03 PM.png](../assets/Screen_Shot_2022-02-02_at_7.30.03_PM_1643859005788_0.png){:height 146, :width 366}
 		- Intersection
 		  background-color:: #793e3e
+		  collapsed:: true
 			- Definition: all tuples both in R1 and R2
 			- Notation: $R1 \cap R2$
 			- Note
@@ -176,6 +185,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 				- Example: {1,2,1} INTER {1,2,3} = {1,2}.
 		- Join
 		  background-color:: #793e3e
+		  collapsed:: true
 			- Theta join
 			  background-color:: #793e3e
 				- 带限定条件的笛卡尔积
@@ -213,14 +223,6 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 		- Sequence of columns is insignificant
 		- Sequence of rows is insignificant
 		- Each column has a unique name
-	- **SQL Constraints**
-	  collapsed:: true
-		- NOT NULL: Cannot store a null value in a column
-		- UNIQUE: All values in the column must be unique
-		- PRIMARY KEY: A primary key is a field which can uniquely identify each row in a table. And this constraint is used to specify a field in a table as primary key
-		- FOREIGN KEY: A field which can uniquely identify each row in another table.
-		- CHECK: Validates that the values of a column meet a specific condition
-		- DEFAULT: Specifies a default value for a column when no value is specified by the user
 	- **Data integrity of RDBMS system**
 	  id:: 61fb80c7-af53-46b4-886c-c534e69cac72
 	  collapsed:: true
@@ -356,7 +358,7 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 	- **SQL Essential**
 	  collapsed:: true
 		- Basic Querying
-		  background-color:: #793e3e
+		  collapsed:: true
 			- Procedure (vary with different ((61fc7d34-3789-429a-8fd7-a90189a9ed1a)) )
 			  collapsed:: true
 				- create a connection to the database
@@ -366,249 +368,8 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 					- check permission to access the desired data
 					- check syntax
 				- RDBMS executes query and returns a _result set_ to the calling application
-			- Basic Select Query Form
-			  background-color:: #264c9b
-				- `SELECT` desired attributes
-				- `FROM` one or more tables
-				- `WHERE` condition about content of the tables (filters)
-				- `GROUP BY` used to group rows together by common column values
-				- `HAVING` filters out unwanted groups
-				- `ORDER BY` sorts the rows of the final result sets by one or more columns
-				- |Logical (how it is executed|意义|
-				  |--|--|
-				  |FROM|The first thing that happens is creating the table to do the select from.|
-				  |WHERE|The first thing that happens is creating the table to do the select from.|
-				  |GROUP BY|The first thing that happens is creating the table to do the select from.|
-				  |HAVING|The first thing that happens is creating the table to do the select from.|
-				  |SELECT|**SELECT is executed after most other clauses**|
-				  |DISTINCT|After selection, are operations to eliminate duplicate rows and merge rows from two tables into one|
-				  |UNION|After selection, are operations to eliminate duplicate rows and merge rows from two tables into one|
-				  |ORDER BY|The final sorting “ORDER BY” happens at the **end** – after any UNION operations are performed|
-		- Filtering
-		  background-color:: #793e3e
-			- Three condition evaluation examples
-			  collapsed:: true
-				- |Intermediate result|Final result|
-				  |--|--|
-				  |`WHERE (true OR true) AND true`|`true`|
-				  |`WHERE (true OR false) AND true`|`true`|
-				  |`WHERE (false OR true) AND true`|`true`|
-				  |`WHERE (false OR false) AND true`|`false`|
-				  |`WHERE (true OR true) AND false`|`false`|
-				  |`WHERE (true OR false) AND false`|`false`|
-				  |`WHERE (false OR true) AND false`|`false`|
-				  |`WHERE (false OR false) AND false`|`false`|
-				- |Intermediate result|Final result|
-				  |--|--|
-				  |`WHERE NOT (true OR true) AND true`|`false`|
-				  |`WHERE NOT (true OR false) AND true`|`false`|
-				  |`WHERE NOT (false OR true) AND true`|`false`|
-				  |`WHERE NOT (false OR false) AND true`|`true`|
-				  |`WHERE NOT (true OR true) AND false`|`false`|
-				  |`WHERE NOT (true OR false) AND false`|`false`|
-				  |`WHERE NOT (false OR true) AND false`|`false`|
-				  |`WHERE NOT (false OR false) AND false`|`false`|
-			- conditions operators
-			  collapsed:: true
-				- Comparison operators, such as =, !=, <, >, <>, like, in, and between
-				- Arithmetic operators, such as +, -, *, and /
-			- Matching Conditions (partial string matches)
-			  collapsed:: true
-				- |Wildcard character|matches|
-				  |`_`|Exactly one character|
-				  |`%`|Any number of characters (including 0)|
-				- |Search Expression|Interpretation|
-				  |`F%`|Strings beginning with F|
-				  |`%t`|Strings ending with t|
-				  |`%bas%`|Strings containing the substring 'bas'|
-				  |`__t_`|Four-character strings with at in the third position|
-		- JOIN (Querying Multiple Table)
-		  background-color:: #793e3e
-			- ((620076fd-6b8a-4e8b-a86b-dd50cd974aab))
-			- 演示数据
-			  collapsed:: true
-				- 表A
-					- |||
-					  |aID|aNum|
-					  |--|--|
-					  |1|a20050111|
-					  |2|a20050112|
-					  |3|a20050113|
-					  |4|a20050114|
-					  |5|a20050115|
-				- 表 B
-					- |||
-					  |bID|bNum|
-					  |--|--|
-					  |1|2006032401|
-					  |2|2006032402|
-					  |3|2006032403|
-					  |4|2006032404|
-					  |8|2006032408|
-			- INNER JOIN (JOIN)
-			  collapsed:: true
-				- 显示 A.aID = B.bID 的记录. 
-				  inner join并不以谁为基础,它只显示符合条件的记录.
-				- ```sql
-				  SELECT * FROM A
-				  INNERJOIN B
-				  ON A.aID = B.bID
-				  ```
-					- |||
-					  |aID|aNum|bID|bName|
-					  |--|--|--|--|
-					  |1|a20050111|1|2006032401|
-					  |2|a20050112|2|2006032402|
-					  |3|a20050113|3|2006032403|
-					  |4|a20050114|4|2006032404|
-			- LEFT JOIN
-			  collapsed:: true
-				- left join是以A表的记录为基础的,A可以看成左表,B可以看成右表,left join是以左表为准的.
-				  左表(A)的记录将会全部表示出来,而右表(B)只会显示符合搜索条件的记录(例子中为: A.aID = B.bID).
-				  B表记录不足的地方均为NULL
-				- ```sql
-				  SELECT * FROM A
-				  LEFT JOIN B
-				  ON A.aID = B.bID
-				  ```
-					- |aID|aNum|bID|bName|
-					  |1|a20050111|      1                |2006032401|
-					  |2|a20050112|         2               |2006032402|
-					  |3|a20050113|         3               |2006032403|
-					  |4|a20050114|         4               |2006032404|
-					  |5|a20050115|         NULL        |NULL|
-			- RIGHT JOIN
-			  collapsed:: true
-				- 以右表(B)为基础的,A表不足的地方用NULL填充.
-				- ```sql
-				  SELECT * FROM A
-				  RIGHT JOIN B
-				  ON A.aID = B.bID
-				  ```
-					- |||
-					  |aID|aNum|bID|bName|
-					  |--|--|--|--|
-					  |1|a20050111|1|2006032401|
-					  |2|a20050112|2|2006032402|
-					  |3|a20050113|3|2006032403|
-					  |4|a20050114|4|2006032404|
-					  |NULL|NULL|8|2006032408|
-			- ((620076fd-5f4e-4dff-b493-19b54301cca9))
-		- Working with sets (combine rows)
-		  background-color:: #793e3e
-			- UNION
-			  collapsed:: true
-				- ```sql
-				  SELECT 1 num,
-				  		'abc' str
-				  UNION
-				  SELECT 9 num,
-				  		'xyz' str
-				          
-				  /* num   str
-				  /* 1     abc
-				  /* 9     xyz
-				  ```
-			- UNION ALL (allow duplicates, faster)
-			  collapsed:: true
-				- ![Screen Shot 2022-02-20 at 7.39.14 PM.png](../assets/Screen_Shot_2022-02-20_at_7.39.14_PM_1645414756477_0.png)
-				- ```sql
-				  SELECT 'Customer' Type,
-				  		c. first_name,
-				  		c. last_name
-				  	FROM customer C
-				  UNION ALL /* sum of the two source table */
-				  SELECT 'Actor' Type,
-				  		a. first_name,
-				  		a. last_name
-				  	FROM actor a;
-				  ```
-			- UNION, UNION ALL, INTERSECT
-			  collapsed:: true
-				- ![Screen Shot 2022-02-20 at 7.42.16 PM.png](../assets/Screen_Shot_2022-02-20_at_7.42.16_PM_1645414938073_0.png)
-				- 799, 797, suppose to be two duplicates, but why just 1 shows in the intersect table?
-				- ![Screen Shot 2022-02-20 at 7.48.13 PM.png](../assets/Screen_Shot_2022-02-20_at_7.48.13_PM_1645415295788_0.png)
-				- 因为两个Susan Davis都是在actor table里面的, UNION ALL 允许重复
-			- EXCEPT
-			  collapsed:: true
-				- Remove actors who have customers with the same name
-				- ![Screen Shot 2022-02-20 at 7.50.05 PM.png](../assets/Screen_Shot_2022-02-20_at_7.50.05_PM_1645415407670_0.png)
-		- Grouping and Aggregates
-		  background-color:: #793e3e
-			- Basic count aggregate function
-			  collapsed:: true
-				- ```sql
-				  SELECT customer_id, count(*)
-				  FROM rental
-				  GROUP BY customer_id
-				  ```
-			- Aggregate with filter
-			  collapsed:: true
-				- ```sql
-				  SELECT customer_id, count(*)
-				  FROM rental
-				  GROUP BY customer_id
-				  HAVING count(*) >= 40
-				  ```
-			- Using all aggregate function
-			  collapsed:: true
-				- ```sql
-				  SELECT  MAX (amount) max_amt,
-				  		MIN (amount) min_amt,
-				  		AVG (amount) avg_amt,
-				  		SUM (amount) tot_amt,
-				  		COUNT (DISTINCT customer_id ) num_payments
-				  FROM payment;
-				  GROUP BY customer_id
-				  ```
-			- Single column grouping
-			  collapsed:: true
-				- ```sql
-				  SELECT actor_id, count(*)
-				  FROM film_actor
-				  GROUP BY actor_id
-				  ```
-			- Multi-column grouping
-			  collapsed:: true
-				- ```sql
-				  SELECT fa.actor_id, f.rating, count(*)
-				  FROM film_actor fa
-				  	INNER JOIN
-				  	film f 
-				      ON fa.film_id = f.film_id
-				  GROUP BY fa.actor_id,
-				  		 f.rating
-				  ORDER BY 1,
-				  		 2;
-				  ```
-				- ![Screen Shot 2022-02-20 at 8.00.21 PM.png](../assets/Screen_Shot_2022-02-20_at_8.00.21_PM_1645416024283_0.png)
-			- grouping via expressions
-			  collapsed:: true
-				- ```sql
-				  SELECT strftime('%Y', rental_date) year,
-				  	   COUNT(*) how_many
-				  FROM rental
-				  GROUP BY strftime('%Y', rental_date);
-				  ```
-				- ![Screen Shot 2022-02-20 at 8.01.34 PM.png](../assets/Screen_Shot_2022-02-20_at_8.01.34_PM_1645416096727_0.png)
-			- group filter conditions
-			  collapsed:: true
-				- ```sql
-				  SELECT fa.actor_id,
-				  	   f.rating,
-				  	   count(*)
-				  FROM film_actor fa
-				  	 INNER JOIN
-				  	 film f 
-				       ON fa.film_ id = f.film_ id
-				  WHERE f.rating IN ('G', 'PG')
-				  GROUP BY fa. actor_id,
-				  		 f.rating
-				  HAVING count ( * ) > 9;
-				  ```
-				- ![Screen Shot 2022-02-20 at 8.03.07 PM.png](../assets/Screen_Shot_2022-02-20_at_8.03.07_PM_1645416194449_0.png)
 		- Subqueries
-		  background-color:: #793e3e
+		  collapsed:: true
 			- Properties
 			  collapsed:: true
 				- always return table
@@ -724,7 +485,116 @@ date:: [[2022-02-01 Tuesday]], [[2022-02-03 Thursday]], [[2022-02-15 Tuesday]]
 			- Example3 (Non-correlated)
 			  collapsed:: true
 				- ![Screen Shot 2022-02-20 at 8.28.13 PM.png](../assets/Screen_Shot_2022-02-20_at_8.28.13_PM_1645417722658_0.png)
+		- Working with sets (combine rows)
+		  collapsed:: true
+			- UNION
+			  collapsed:: true
+				- ```sql
+				  SELECT 1 num,
+				  		'abc' str
+				  UNION
+				  SELECT 9 num,
+				  		'xyz' str
+				          
+				  /* num   str
+				  /* 1     abc
+				  /* 9     xyz
+				  ```
+			- UNION ALL (allow duplicates, faster)
+			  collapsed:: true
+				- ![Screen Shot 2022-02-20 at 7.39.14 PM.png](../assets/Screen_Shot_2022-02-20_at_7.39.14_PM_1645414756477_0.png)
+				- ```sql
+				  SELECT 'Customer' Type,
+				  		c. first_name,
+				  		c. last_name
+				  	FROM customer C
+				  UNION ALL /* sum of the two source table */
+				  SELECT 'Actor' Type,
+				  		a. first_name,
+				  		a. last_name
+				  	FROM actor a;
+				  ```
+			- UNION, UNION ALL, INTERSECT
+			  collapsed:: true
+				- ![Screen Shot 2022-02-20 at 7.42.16 PM.png](../assets/Screen_Shot_2022-02-20_at_7.42.16_PM_1645414938073_0.png)
+				- 799, 797, suppose to be two duplicates, but why just 1 shows in the intersect table?
+				- ![Screen Shot 2022-02-20 at 7.48.13 PM.png](../assets/Screen_Shot_2022-02-20_at_7.48.13_PM_1645415295788_0.png)
+				- 因为两个Susan Davis都是在actor table里面的, UNION ALL 允许重复
+			- EXCEPT
+			  collapsed:: true
+				- Remove actors who have customers with the same name
+				- ![Screen Shot 2022-02-20 at 7.50.05 PM.png](../assets/Screen_Shot_2022-02-20_at_7.50.05_PM_1645415407670_0.png)
+		- Filtering
+		  collapsed:: true
+			- Three condition evaluation examples
+			  collapsed:: true
+				- |Intermediate result|Final result|
+				  |--|--|
+				  |`WHERE (true OR true) AND true`|`true`|
+				  |`WHERE (true OR false) AND true`|`true`|
+				  |`WHERE (false OR true) AND true`|`true`|
+				  |`WHERE (false OR false) AND true`|`false`|
+				  |`WHERE (true OR true) AND false`|`false`|
+				  |`WHERE (true OR false) AND false`|`false`|
+				  |`WHERE (false OR true) AND false`|`false`|
+				  |`WHERE (false OR false) AND false`|`false`|
+				- |Intermediate result|Final result|
+				  |--|--|
+				  |`WHERE NOT (true OR true) AND true`|`false`|
+				  |`WHERE NOT (true OR false) AND true`|`false`|
+				  |`WHERE NOT (false OR true) AND true`|`false`|
+				  |`WHERE NOT (false OR false) AND true`|`true`|
+				  |`WHERE NOT (true OR true) AND false`|`false`|
+				  |`WHERE NOT (true OR false) AND false`|`false`|
+				  |`WHERE NOT (false OR true) AND false`|`false`|
+				  |`WHERE NOT (false OR false) AND false`|`false`|
+			- conditions operators
+			  collapsed:: true
+				- Comparison operators, such as =, !=, <, >, <>, like, in, and between
+				- Arithmetic operators, such as +, -, *, and /
+			- Matching Conditions (partial string matches)
+			  collapsed:: true
+				- |Wildcard character|matches|
+				  |`_`|Exactly one character|
+				  |`%`|Any number of characters (including 0)|
+				- |Search Expression|Interpretation|
+				  |`F%`|Strings beginning with F|
+				  |`%t`|Strings ending with t|
+				  |`%bas%`|Strings containing the substring 'bas'|
+				  |`__t_`|Four-character strings with at in the third position|
+		- Constraints when creating table
+		  collapsed:: true
+			- NOT NULL:Cannot store a null value in a columnUNIQUE:All values in the column must be unique.
+			- PRIMARY KEY:A primary key is a field which can uniquely identify each row in a table. And this constraint is used to specify a field in a table as primary key
+			- FOREIGN KEY:A field which can uniquely identify each row in another table.
+			- CHECK:Validates that the values of a column meet a specific condition
+			- DEFAULT:Specifies a default value for a column when no value is specified by the user
+			- example
+				- create tables
+				  collapsed:: true
+					- ![CleanShot_Module 5  Pt 1. - Data Preparation for Analytics (page 25  117)_20220322.png](../assets/CleanShot_Module_5_Pt_1._-_Data_Preparation_for_Analytics_(page_25_117)_20220322_1647998159201_0.png)
+					- ![CleanShot_Module 5  Pt 1. - Data Preparation for Analytics (page 26  117)_20220322.png](../assets/CleanShot_Module_5_Pt_1._-_Data_Preparation_for_Analytics_(page_26_117)_20220322_1647998171393_0.png)
+				- declaring multi-attribute keys
+				  collapsed:: true
+					- ```sql
+					  CREATE TABLE Sells(
+					      bar CHAR(20),
+					      beer VARCHAR(20),
+					      price REAL,
+					      PRIMARY KEY(bar, beer)
+					  )
+					  ```
+				- Default values
+				  collapsed:: true
+					- ```sql
+					  CREATE TABLE Drinkers(
+					      name CHAR(30) PRIMARY KEY,
+					      addr CHAR(50) DEFAULT '123 st',
+					      phone CHAR(16)
+					  )
+					  ```
 - # Summary
+  collapsed:: true
 	- Products and joins are done on each pair of tuples, so duplicates in bags have no effect on how we operate.
 	- projection 出来可能是一个set (primary key) 也可能是一个bag (有duplicates 因为不是primary key) 如果想保留duplicates, 使用bag projection
 	- SQL是bag language

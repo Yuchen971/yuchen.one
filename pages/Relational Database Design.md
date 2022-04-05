@@ -143,6 +143,8 @@ topic:: database, relational database, ER diagram
 			- ![image.png](../assets/image_1643004916271_0.png)
 			- Primary Key
 				- The attribute chosen to serve as the unique identifier for the entity type
+				- there can be only one primary key for a relation, but several UNIQUE attributes
+				- no attribute of a primary key can ever be NULL in any tuple, but UNIQUE attributes may have NULLs
 			- Composite Key
 			  id:: 62183a67-ffd1-4956-813c-0feb3f3b113d
 				- The combination of two or more attributes selected as the primary key

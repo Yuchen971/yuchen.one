@@ -1,5 +1,5 @@
 alias:: 逻辑回归
-type:: classification, regression
+type:: classification
 
 - Definition of logistic regression
 	- 解决二分类问题的机器学习方法, 用于估计某种事物的可能性, 比如某广告被用户点击的可能性. 这里的可能性不是数学上的概率, 不可以用作概率值. 和 [[linear regression]] 一样都是广义的线性模型.

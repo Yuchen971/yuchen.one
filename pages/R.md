@@ -1,29 +1,24 @@
 - {{renderer :tocgen, [[]], 2}}
--
-- Packages
-	- [[tidyverse]]
-	- [[CheatSheet/data.table]]
-	- [[CheatSheet/tibble]]
 - basic
 	- 基本语法
 	  collapsed:: true
-		- ## **Data Types**
+		- **Data Types**
 		  collapsed:: true
 			- numeric - (10.5, 55, 787)
 			- integer - (1L, 55L, 100L, where the letter "^^L^^" declares this as an integer)
 			- complex - (9 + 3i, where "i" is the imaginary part)
 			- character (a.k.a. string) - ("k", "R is exciting", "FALSE", "11.5")
 			- logical (a.k.a. boolean) - (TRUE or FALSE)
-		- ## **Type Conversion**
+		- **Type Conversion**
 		  collapsed:: true
 			- `as.numeric(), as.interger(), as.complex()`
-		- ## **Round up and Round down**
+		- **Round up and Round down**
 		  collapsed:: true
 			- The `ceiling()` function rounds a number upwards to its nearest integer, and the `floor()` function rounds a number downwards to its nearest integer
-		- ## **特殊操作符**
+		- **特殊操作符**
 		  collapsed:: true
 			- ![image.png](../assets/image_1643007096311_0.png)
-		- ## **IF**
+		- **IF**
 		  collapsed:: true
 			- ```r
 			  a <- 33
@@ -35,7 +30,7 @@
 			    print ("a and b are equal")
 			  }
 			  ```
-		- ## **While**
+		- **While**
 		  collapsed:: true
 			- ```r
 			  i <- 1
@@ -47,7 +42,7 @@
 			    }
 			  }
 			  ```
-		- ## **For**
+		- **For**
 		  collapsed:: true
 			- ```r
 			  fruits <- list("apple", "banana", "cherry")
@@ -59,7 +54,7 @@
 			    print(x)
 			  }
 			  ```
-		- ## **Functions**
+		- **Functions**
 		  collapsed:: true
 			- ```r
 			  my_function <- function(x) {
@@ -69,13 +64,13 @@
 			  ```
 	- 数据结构
 	  collapsed:: true
-		- ## **改变数据结构**
+		- **改变数据结构**
 		  collapsed:: true
 			- ```r
 			  # 转换factor为numeric
 			  data$x6=as.numeric(as.character(data$x6))
 			  ```
-		- ## **Vectors**
+		- **Vectors**
 		  collapsed:: true
 			- Create Vectors
 				- ```r
@@ -115,7 +110,7 @@
 				  # Change "banana" to "pear"
 				  fruits[1] <- "pear"
 				  ```
-		- ## **Lists**
+		- **Lists**
 		  collapsed:: true
 			- Create Lists
 				- ```r
@@ -146,7 +141,7 @@
 				  list2 <- list(1,2,3)
 				  list3 <- c(list1,list2)
 				  ```
-		- ## **Matrices**
+		- **Matrices**
 		  collapsed:: true
 			- Create Matrices
 				- ```r
@@ -227,7 +222,7 @@
 				  #[1,] "apple"  "cherry" "orange" "pineapple" 
 				  #[2,] "banana" "grape"  "mango"  "watermelon"
 				  ```
-		- ## **Arrays**
+		- **Arrays**
 		  collapsed:: true
 			- Create Arrays
 				- ```r
@@ -285,7 +280,7 @@
 				    print(x)
 				  }
 				  ```
-		- ## **DataFrame**
+		- **DataFrame**
 		  collapsed:: true
 			- Summarize Data
 				- ```r
@@ -349,7 +344,7 @@
 				  #2  Stamina   150       30  6000      400
 				  #3    Other   120       45  2000      300
 				  ```
-		- ## **Factors**
+		- **Factors**
 		  collapsed:: true
 			- Create Factors
 				- ```r
@@ -370,7 +365,7 @@
 				  ```
 	- 基本函数
 	  collapsed:: true
-		- ## ^^subset()^^
+		- ^^subset()^^
 		  collapsed:: true
 			- ```r
 			  Datafra <- data.frame(name=c(1,2,4,NA,4,5,7),family=c("xiao","ming",NA,NA,"zhou","zheng","li"))
@@ -398,7 +393,7 @@
 			  # subset使用函数
 			  subset(d1,Price,subset=Manufacturer=="Ford")
 			  ```
-		- ## order() 排序
+		- order() 排序
 		  collapsed:: true
 			- ```r
 			  # Sorting column
@@ -406,7 +401,7 @@
 			  ```
 	- cross tabulation (交叉表)
 	  collapsed:: true
-		- ## table()
+		- table()
 		  collapsed:: true
 			- ^^short table^^
 				- ```r
@@ -442,26 +437,26 @@
 				  #ownNo    137     22  0.1383648
 				  #ownYes   123     18  0.1276596
 				  ```
-		- ## **xtabs()**
+		- **xtabs()**
 		  collapsed:: true
 			- xtabs works with formula
 			- ![image.png](../assets/image_1643007992038_0.png){:height 365, :width 514}
 			- ![image.png](../assets/image_1643008006391_0.png){:height 320, :width 510}
-		- ## prop.table()
+		- prop.table()
 		  collapsed:: true
 			- 和table()一样, 只是显示百分比
-		- ## Two categorical vars
+		- Two categorical vars
 		  collapsed:: true
 			- ftable()
 	- pivot table
 	  collapsed:: true
-		- ## **apply()**
+		- **apply()**
 		  collapsed:: true
 			- applying a function to numeric columns
 			- ```r
 			  applying a function to numeric columns
 			  ```
-		- ## **tapply()** (Pivot table)
+		- **tapply()** (Pivot table)
 		  collapsed:: true
 			- One factor
 				- ```r
@@ -479,7 +474,7 @@
 				  #None                2640     2552.5    3610
 				  
 				  ```
-		- ## **aggregate()**
+		- **aggregate()**
 		  collapsed:: true
 			- ```r
 			  # average(price, weight and length) of cars by DriveTrain
@@ -491,7 +486,7 @@
 			  aggregate(cbind(Price,Weight,Length) ~ AirBags + DriveTrain, data=d1,mean,na.rm=TRUE)
 			  ```
 				- ![image.png](../assets/image_1643008117389_0.png)
-		- ## **sapply()**
+		- **sapply()**
 		  collapsed:: true
 			- applies a function to a dataframe. sapply(dataframe, function)
 			- ```r
@@ -500,3 +495,6 @@
 			  # find levels of all factor columns
 			  sapply(dfactors, levels)
 			  ```
+-
+- {{query (page-property language R)}}
+  query-properties:: [:page :type :created-at :updated-at]

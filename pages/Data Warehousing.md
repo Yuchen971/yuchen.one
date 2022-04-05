@@ -40,7 +40,7 @@ date:: [[2022-02-22 Tuesday]], [[2022-02-24 Thursday]] , [[2022-03-01 Tuesday]]
 			- Physically separate store of data transformed from the operational environment
 			- Requires only two operations in data accessing: initial loading of data and access of data
 			- ![Screen Shot 2022-02-23 at 8.45.08 PM.png](../assets/Screen_Shot_2022-02-23_at_8.45.08_PM_1645677918885_0.png)
-	- What is Data Mart (数据市集)
+	- What is [[Data Mart]] (数据市集)
 	  collapsed:: true
 		- 如果说数据仓库是建立在企业级的数据模型之上的话, 那么数据集市就是企业级数据仓库的一个子集. 他主要面向部门级业务, 并且只是面向某个特定的主题, 数据集市可以在一定程度上缓解访问数据仓库的瓶颈.
 	- Kimball architecture and Inmon architecture
@@ -264,7 +264,7 @@ date:: [[2022-02-22 Tuesday]], [[2022-02-24 Thursday]] , [[2022-03-01 Tuesday]]
 				- ![Screen Shot 2022-03-03 at 11.21.08 PM.png](../assets/Screen_Shot_2022-03-03_at_11.21.08_PM_1646378479176_0.png)
 		- Task 3
 		  collapsed:: true
-			- Data mart decreases due to the size of fact table too large, Design [[aggregate fact table]] enable queries have better performance:
+			- [[Data Mart]] decreases due to the size of fact table too large, Design [[aggregate fact table]] enable queries have better performance:
 				- What are the most popular cruises?
 				- Which cruises produce the most revenue?
 				- Which place do we visit most often?

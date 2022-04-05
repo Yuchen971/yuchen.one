@@ -20,8 +20,8 @@ type:: unsupervised learning
 - **Distances**
   background-color:: #793e3e
 	- 点间距离
-		- [[Euclidean distance]]
-		- [[Manhattan distance]]
+		- [[Distance/Euclidean]]
+		- [[Distance/Manhattan]]
 	- 类间距离
 		- average linkage 类平均法
 			- 吧所有平均值汇总在一起, 除以n个类的总数
@@ -84,10 +84,12 @@ type:: unsupervised learning
 	- ![kmeans_example.pdf](../assets/kmeans_example_1644963428760_0.pdf)
 	- use the library `cluster` and `USArrests` and `factoextra`
 	  id:: 620b3f27-dc28-4327-8c67-62c5355a36e6
+	  collapsed:: true
 		- It contains statistics, in arrests per 100,000 residents for assault, murder, and rape in each of the 50 US states
 		- Also includes the percent of population living in urban areas
 		- Murder, Assault, Rape, UrbanPop, Murder arrests
 	- R example
+	  collapsed:: true
 		- scale the data and produce distance in a matrix display
 		  collapsed:: true
 			- ```r

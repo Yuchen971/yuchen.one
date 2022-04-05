@@ -46,3 +46,5 @@ Alias:: RSS, 残差平方和, SSR
 		  \end{aligned}
 		  $$
 		-
+- Note
+	- RSS 和 [[r2]] 一样, 都会随着更多变量的纳入使得训练误差降低

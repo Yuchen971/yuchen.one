@@ -45,3 +45,6 @@
 - 光标移动
 	- `w, b` next (previous) word
 	- `%` match {, [, (
+- 其他
+	- 竖向选择替换
+		- `Ctrl + v` 之后 `c` 来替换 `I, A` 来insert

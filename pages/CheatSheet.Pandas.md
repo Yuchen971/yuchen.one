@@ -1,22 +1,21 @@
 - {{renderer :tocgen}}
 - **Rows**
-collapsed:: true
+  collapsed:: true
 	- **去掉只出现一次的行**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  df[df.groupby('x').x.transform(len) > 1]
 		  ```
 - **Columns**
-collapsed:: true
+  collapsed:: true
 	- **合并两列为新的一列**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  df['date'] = df['年'].map(str)+"/"+df['月'].map(str)+"/"+df['日'].map(str)
 		  ```
 - **Date**
-collapsed:: true
 	- **找出连续日期**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  # 连续日期
 		  df['date'] = pd.to_datetime(df['date'])
@@ -39,7 +38,7 @@ collapsed:: true
 		  ```
 		- [python – 在Pandas DataFrame中查找连续日期组](https://www.icode9.com/content-1-493830.html)
 	- **日期转置合并**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  city_list = ['北京市','天津市','河北省','山西省','内蒙古自治区',
 		               '辽宁省','吉林省','黑龙江省','上海市','江苏省','浙江省',
@@ -60,23 +59,28 @@ collapsed:: true
 		    for date in date_list:
 		      finaldf[date][city] = dictionary[city].set_index('年度标识').loc[int(date)].values[1]
 		  ```
+	- combine year month and day columns
+	  collapsed:: true
+		- ```python
+		  climate_table_longer['Date'] = pd.to_datetime(climate_table_longer[{'year', 'month', 'day'}])
+		  ```
 - **Index**
-collapsed:: true
+  collapsed:: true
 	- **反向索引**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  df[~df.index.isin(last_multiple_days_date)]
 		  ```
 - **Others**
-collapsed:: true
+  collapsed:: true
 	- **双向interpolate**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  # 如果单向interpolate，在首位的NaN值会保留，必须双向interpolate
 		  pd.interpolate(limit_direction='both')
 		  ```
 	- **CSV中文乱码**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  import pandas as pd
 		  import os
@@ -87,3 +91,7 @@ collapsed:: true
 		      temp.to_excel(f'/content/{i[:-4]}.xlsx')
 		  或者 utf_8_sig
 		  ```
+- Note
+  collapsed:: true
+	- pandas 的列是axis = 1
+	- sklearn 和 numpy 的列是 axis = 0

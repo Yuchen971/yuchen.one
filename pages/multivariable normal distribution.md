@@ -1,4 +1,4 @@
-alias:: 多元高斯分布, 多元正态分布, n维正态分布, 多变量高斯分布, multivariate gaussian distribution, multivariable gaussian distribution, multivariable normal, multivariate normal
+alias:: 多元高斯分布, 多元正态分布, n维正态分布, 多变量高斯分布, multivariate gaussian distribution, multivariable gaussian distribution, multivariable normal, multivariate normal, MVN distribution
 related:: [[normal distribution]]
 
 - Definition

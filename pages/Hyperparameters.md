@@ -1,1 +1,1 @@
-alias:: 超参, hyperparameter
+alias:: 超参数, hyperparameter

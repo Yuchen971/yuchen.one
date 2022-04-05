@@ -3,84 +3,286 @@
 	- [[Relational Database Design]]
 	- [[Relational Database Programming (SQL)]]
 	- [[Data Warehousing]]
+	- [[Data Mart]]
+	-
+- DONE HW_5A HW5 [[2022-04-04 Monday]] 11:59PM
+  collapsed:: true
+	- dimension tables
+		- supplier_dim
+		  collapsed:: true
+			- create
+			  collapsed:: true
+				- ```sql
+				    CREATE TABLE International_Foods_warehouse.supplier_dim(
+				      supplier_id INT PRIMARY KEY,
+				      supplier_name VARCHER (8000),
+				      supplier_city VARCHER (8000),
+				      supplier_country VARCHER (8000)
+				  )
+				  ```
+			- populate
+			  collapsed:: true
+				- supplier name is the company name or contact name
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.supplier_dim(
+				          supplier_id,
+				          supplier_name,
+				          supplier_city,
+				          supplier_country
+				      )
+				  SELECT
+				      s.id,
+				      s.CompanyName,
+				      s.City,
+				      s.Country
+				  FROM
+				      International_Foods.supplier s
+				  ```
+		- date_dim
+		  collapsed:: true
+			- create
+			  collapsed:: true
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.date_dim (
+				    date VARCHAR (8000) PRIMARY KEY,
+				    week INT,
+				    month INT,
+				    year INT
+				  )
+				  ```
+			- populate
+			  collapsed:: true
+				- date using order date
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.date_dim(date, week, month, year)
+				  SELECT
+				      DISTINCT date(OrderDate),
+				      strftime('%w', OrderDate),
+				      strftime('%m', OrderDate),
+				      strftime ('%Y', OrderDate)
+				  FROM
+				      International_Foods.Orders;
+				  ```
+		- product_dim
+		  collapsed:: true
+			- create
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.product_dim (
+				      product_id INT PRIMARY KEY,
+				      product_name VARCHAR (8000),
+				      category_name VARCHAR (8000)
+				  )
+				  ```
+			- populate
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.product_dim(
+				          product_id,
+				          product_name,
+				          category_name
+				      )
+				  SELECT
+				      p.Id,
+				      p.ProductName,
+				      c.CategoryName
+				  FROM
+				      International_Foods.Product p
+				      LEFT JOIN Category c ON c.Id = p.CategoryId
+				  ```
+		- customer_dim
+		  collapsed:: true
+			- create
+				- customer id is varchar
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.customer_dim (
+				      customer_id VARCHAR (8000) PRIMARY KEY,
+				      customer_name VARCHAR (8000),
+				      customer_country VARCHAR (8000)
+				  )
+				  ```
+			- populate
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.customer_dim(
+				          customer_id,
+				          customer_name,
+				          customer_country
+				      )
+				  SELECT
+				      c.Id,
+				      c.CompanyName,
+				      c.Country
+				  FROM
+				      International_Foods.Customer c
+				  ```
+		- shipper_dim
+		  collapsed:: true
+			- create
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.shipper_dim (
+				      shipper_id INT PRIMARY KEY,
+				      company_name VARCHAR (8000)
+				  )
+				  ```
+			- populate
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.shipper_dim(
+				          shipper_id,
+				          company_name
+				      )
+				  SELECT
+				      s.Id,
+				      s.CompanyName
+				  FROM
+				      International_Foods.Shipper s
+				  ```
+		- employee_dim
+		  collapsed:: true
+			- create
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.employee_dim (
+				      employee_id INT PRIMARY KEY,
+				      employee_last_name VARCHAR (8000),
+				      employee_first_name VARCHAR (8000),
+				      employee_city VARCHAR (8000),
+				      employee_country VARCHAR (8000)
+				  )
+				  ```
+			- populate
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.employee_dim(
+				          employee_id,
+				          employee_last_name,
+				          employee_first_name,
+				          employee_city,
+				          employee_country
+				      )
+				  SELECT
+				      e.Id,
+				      e.LastName,
+				      e.FirstName,
+				      e.City,
+				      e.Country
+				  FROM
+				      International_Foods.Employee e
+				  ```
+	- fact tables
+		- supplier_fact
+		  collapsed:: true
+			- create
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.supplier_fact(
+				      date VARCHER (8000) REFERENCES date_dim (date),
+				      product_id INT REFERENCES product_dim (product_id),
+				      supplier_id INT REFERENCES supplier_dim (supplier_id),
+				      quantity INT
+				  )
+				  ```
+			- populate
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.supplier_fact(
+				      date,
+				      product_id,
+				      supplier_id,
+				      quantity
+				      )
+				  SELECT
+				      DATE(o.OrderDate),
+				      od.ProductId,
+				      p.SupplierID,
+				      od.Quantity
+				  FROM
+				      International_Foods.Orders o
+				      LEFT JOIN International_Foods.OrderDetail od ON od.OrderID = o.Id
+				      LEFT JOIN International_Foods.Product p on p.Id = od.ProductId
+				  ```
+		- sales_fact
+		  collapsed:: true
+			- create
+			  collapsed:: true
+				- ```sql
+				  CREATE TABLE International_Foods_warehouse.sales_fact(
+				      date VARCHER (8000) REFERENCES date_dim (date),
+				      product_id INT REFERENCES product_dim (product_id),
+				      customer_id VARCHER (8000) REFERENCES customer_dim (customer_id),
+				      shipper_id INT REFERENCES shipper_dim (shipper_id),
+				      employee_id INT REFERENCES employee_dim (employee_id),
+				      unit_price DECIMAL,
+				      quantity INT,
+				      discount DOUBLE,
+				      total_revenue DECIMAL
+				  )
+				  ```
+			- populate
+			  collapsed:: true
+				- ```sql
+				  INSERT INTO
+				      International_Foods_warehouse.sales_fact(
+				      date,
+				      product_id,
+				      customer_id,
+				      shipper_id,
+				      employee_id,
+				      unit_price,
+				      quantity,
+				      discount,
+				      total_revenue
+				      )
+				  SELECT
+				      DATE(o.OrderDate),
+				      od.ProductId,
+				      c.Id,
+				      o.ShipVia, /* shipper id*/
+				      o.EmployeeId,
+				      od.UnitPrice,
+				      od.Quantity,
+				      od.Discount,
+				      od.UnitPrice*od.Quantity*(1-od.Discount)
+				  FROM
+				      International_Foods.Orders o
+				      LEFT JOIN International_Foods.OrderDetail od ON od.OrderID = o.Id
+				      LEFT JOIN International_Foods.Product p ON p.Id = od.ProductId
+				      LEFT JOIN International_Foods.Customer c ON c.Id = o.CustomerId
+				  ```
+			-
+	- Questions
+		- What was the total revenue for Tofu during July 2013?
+		  collapsed:: true
+			- ```sql
+			  SELECT
+			      SUM(total_revenue),
+			      year,
+			      month,
+			      product_name
+			  FROM
+			      sales_fact s
+			      LEFT JOIN product_dim p ON p.product_id = s.product_id
+			      LEFT JOIN date_dim d ON d.date = s.date
+			  WHERE
+			      YEAR = 2013
+			      AND MONTH = 7
+			      AND product_name = 'Tofu'
+			  ```
+		- What was the average sales of Ipoh Coffee by day of the week during 2014?
+		  collapsed:: true
+			- ```sql
+			  SELECT
+			      AVG(total_revenue) as avg_revenue,
+			      AVG(quantity) as avg_quantity,
+			      year,
+			      week
+			  FROM
+			      sales_fact s
+			      LEFT JOIN date_dim d ON d.date = s.date
+			      LEFT JOIN product_dim p ON p.product_id = s.product_id
+			  WHERE
+			      d.year = 2014 and p.product_name = "Ipoh Coffee"
+			  GROUP BY
+			      week
+			  ```
 -
-- Assignments
-	- DONE HW3 11:00 PM
-	  :LOGBOOK:
-	  CLOCK: [2022-02-25 Fri 15:58:26]--[2022-02-25 Fri 20:22:14] =>  04:23:48
-	  :END:
-	- DONE HW4
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2022-03-10 Thu 15:12:55]--[2022-03-10 Thu 15:12:56] =>  00:00:01
-	  CLOCK: [2022-03-10 Thu 15:12:57]--[2022-03-10 Thu 15:13:02] =>  00:00:05
-	  :END:
-		- Problem 1: Data Warehouse Design
-			- International Foods Logical Data Model
-			  collapsed:: true
-				- ![CleanShot_Module 4 Homework (page 3  17)_20220304.png](../assets/CleanShot_Module_4_Homework_(page_3_17)_20220304_1646446406639_0.png)
-			- You wish to design a sales DataMart for International Foods. Your sales business users wish to be able to ask questions such as:
-			  collapsed:: true
-				- What was the total ==revenue== by ==product== for a specific ==day== (Monday, Tuesday, .../month (1-12)/ week (1-52) /year?
-				- What was the total ==revenue== by ==category== for a specific ==day==/month/ week/year?
-				- How much did each ==customer== purchase (==quantity== or ==price==) by ==product== or by ==category==?
-				- Which ==products== were ==discounted== the most often?
-				- What was the total ==revenue== by ==customer city? country==?
-				- What was the total ==revenue== by employee? By ==employee city? country?==
-				- What was the total ==quantity== shipped by ==shipper==? Total quantity of a specific ==product== ==category== by ==shipper==:
-			- 1A) Answer the following questions
-			  background-color:: #793e3e
-				- What is the grain?
-					- each row represents a single product on a single order detail
-				- What are the dimensions?
-				- What are the facts?
-			- 1B) draw the star schema
-			  background-color:: #793e3e
-			- 1C) For the facts in your Sales DataMart, indicate whether they are fully additive, semi-additive, or non-additive. For any semi-additive facts, indicate the dimensions that they cannot be added across.
-			  background-color:: #793e3e
-				- revenue: fully additive
-				- discontinued: non-additive
-				- order_quantity:  fully additive
-			- ---
-			- You now wish to design a suppler DataMart for International Foods.
-			  Your supplier management business users wish to be able to ask questions such as:
-				- What was the ==total quantity== by ==product== supplied for a specific ==supplier== for a specific ==day/month/ week/year==?
-				- What was the ==total quantity== by ==category== by ==supplier== a specific ==date==/day of week/month/ week/year?
-				- What was the ==total quantity== ordered by ==supplier city? supplier country?==
-			- 1D) Answer the following questions
-			  background-color:: #793e3e
-				- What is the grain?
-					- each row represent single product with single supplier
-				- What are the dimensions?
-					- date, product, supplier, order
-				- What are the facts?
-					- supplied quantity
-			- 1E) Which dimensions should conformed the two DataMarts?
-			  background-color:: #793e3e
-				- Date, Product
-			- 1F) draw star schema
-			  background-color:: #793e3e
-				- see P1.drawio
-			- 1G) For the facts in your Supplier DataMart, indicate whether they are fully additive, semi-additive, or non-additive. For any semi-additive facts, indicate the dimensions that they cannot be added across.
-			  background-color:: #793e3e
-				- supplied quantity: fully additive
-			- 1H) Draw the data model of your proposed Data Warehouse consisting of your two DataMarts and showing their conformed dimensions
-			  background-color:: #793e3e
-				- see P1.drawio
-		- Problem 2: Telephone Provider Data Warehouse
-			- You work for a telephone provider that wishes to design a datamart to report on and analyze its call data. They would like to be able to answer questions and queries such as:
-				- What was the total ==amount== collected by each ==call program== in ==2012==?
-				- What was the total ==duration of calls== made by ==customers== in ==Brazil== in 2014?
-				- What was the ==total number of weekend calls== made by ==customers== from Brussels to customers in Antwerp in 2012?
-				- What was the total duration of ==international calls== started by customers in Belgium in 2012?
-				- What was the total amount collected from customers in Brussels who ==enrolled== in the "corporate" ==program== in 2012?
-			- 2A) Answer the following questions
-			  background-color:: #793e3e
-				- What is the grain?
-					- each row represents a single call from a single customer
-				- What are the dimensions?
-				- What are the facts?
-			- 2B) Draw the data model of your proposed DataMart (star schema). For full credit, include the primary and foreign keys. You do not need to list all the attributes of the dimension tables but be sure to list all the attributes needed to answer the business questions on the previous page.
-			  background-color:: #793e3e
-			- 2C) For the facts in your Sales DataMart, indicate whether they are fully additive, semi-additive, or non-additive. For any semi-additive facts, indicate the dimensions that they cannot be added across.
-			  background-color:: #793e3e

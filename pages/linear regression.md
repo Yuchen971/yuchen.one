@@ -1,6 +1,7 @@
-topic:: linear regression, LR, regression
+topic:: linear regression, LR, 
+type:: regression
 
-- # Notes
+- Notes
 	- **What is** [[simple linear regression]]
 	  collapsed:: true
 		- Definition
@@ -127,9 +128,7 @@ topic:: linear regression, LR, regression
 				  右图: 点41 有high leverage and high residual
 			- 检测办法
 				- 用 [[leverage statistic]]
-- # Summary
+- Summary
 	- 只用一个预测变量得到的结果可能与多个预测变量得到的结果完全不一样, 因为这些元素之间存在相关性. 这被称为 confounding (混淆现象), 看 ISLR 4.3.3 & ISLR 4.3.4
-- # Other sources
-	- [回归分析|笔记整理（1）——引入，一元线性回归（上） - 知乎](https://zhuanlan.zhihu.com/p/45149297)
+- Other sources
 	- [回归分析 - 台湾交通大学 - 黃冠華 教授_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ba4y1a7Kk?p=4)
-	-

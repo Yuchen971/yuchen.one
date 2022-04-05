@@ -1,13 +1,13 @@
 alias:: 简单线性回归, LR
 type:: regression
 
-- # Definition
+- Definition
 	- It assumes that there is approximately a linear relationship between X and Y
 	- also called regressing $Y$ on $X$
 	- $$
 	  Y \approx \beta_{0}+\beta_{1} X
 	  $$
-- ## Estimating the Coefficients
+- Estimating the Coefficients
 	- residual $$e$$ 
 	  background-color:: #793e3e
 	  id:: 61f23283-68fc-40a3-8eb3-164243a4e48f
@@ -15,7 +15,7 @@ type:: regression
 	- [[residual sum of square]] (RSS)
 	  background-color:: #793e3e
 		- {{embed ((61f23283-4ccc-4166-b211-3e429f6f0db9))}}
-- ## Accessing the Accuracy of the Coefficient Estimates
+- Accessing the Accuracy of the Coefficient Estimates
 	- how accurate is the sample mean $$\hat{\mu}$$ as a estimate of $$\mu$$ ? (当数据集很多的时候, $$\hat{\mu}$$ 会无线趋近$$\mu$$, 也就是真实的$$\mu$$) (样本的mean和population mean(数据真实平均数)
 	- **standard error of** $${\mu}$$
 	  background-color:: #793e3e
@@ -56,7 +56,7 @@ type:: regression
 		  t=\frac{\hat{\beta}_{1}-0}{S E\left(\hat{\beta}_{1}\right)}
 		  $$
 		- 若有一个较小的 [[p-value]] ，则我们可以推断predictor和response之间有一定的相关性，即拒绝原假设。p值越小，其相关性越显著。
-- ## Accessing the Accuracy of the Model
+- Accessing the Accuracy of the Model
 	- [[residual standard error]] (RSE) 很少用, 和 [[coefficient of determination]]差不多
 	- [[coefficient of determination]] ($$R^2$$)
 -

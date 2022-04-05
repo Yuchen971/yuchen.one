@@ -12,7 +12,7 @@ type:: #lecturenote
 		- LP: [[linear programming]] $\subseteq$ QP: [[quadratic programming]]
 		  $\subseteq$ SOCP: [[second-order cone programming]] $\subseteq$ SDP: [[semi-definite programming]] $\subseteq$ CP: [[conic programming]]
 		- solution for more general problem class also solve the subsumed problem classes
-	- [[Math Notation]]
+	- [[CheatSheet/MathNotation]]
 	- [[matrix]]
 	- What is the derivation in One Dimension? #recall
 	  collapsed:: true
@@ -25,4 +25,3 @@ type:: #lecturenote
 	- What is [[hessian matrix]]? #recall
 	- What is [[taylor expansion]]? #recall
 	- What is [[convex]] (Convexity)?
-	-

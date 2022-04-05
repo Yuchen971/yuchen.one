@@ -1,4 +1,4 @@
-alias:: cv, 临界值
+alias:: 临界值
 
 - Definition
 	- numeric value at the boundary between [[RR]] and [[AR]]

@@ -1,9 +1,15 @@
 alias:: 后验概率, 条件概率, 贝叶斯定理, Bayes' theorem, posterior probability
 
 - Definition
-	- [[先验概率]]: 以全事件为背景下, A事件发生的概率: $P(A|Ω)$
-	- 后验概率: 给定证据(背景)$B$后, 参数$A$的概率 $P(A \mid B)$
-- Formula
+	- [[先验概率]]: 以全事件为背景下, A事件发生的概率: $P(A|Ω)$ 也就是 $P(A) \text{ or } P(B)$
+	- [[后验概率]]: 给定证据(背景) B 后, 参数 A 的概率 $P(A \mid B)$
+- conditional probability
+	- $$
+	  P(A \mid B)=\frac{P(A \cap B)}{P(B)}, \quad P(B \mid A)=\frac{P(A \cap B)}{P(A)}
+	  $$
+		- 其中 $P(A \cap B)$ 也就是 $P[X = A, Y = B]$ 也就是 $P(AB)$
+		  合并两个方程可以得到 =>
+- Bayes theorem Formula
 	- id:: cd6452b6-1502-49a5-a788-318c496a3d07
 	  $$
 	  P(A \mid B)=\frac{P(A) P(B \mid A)}{P(B)}

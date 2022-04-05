@@ -2,19 +2,19 @@
 -
 - **String**
 	- **去掉字符串空格**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  ''.join(i.split())
 		  ```
 	- **Str转Float**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  weight_list['mv_es'] = pd.to_numeric(weight_list['mv_es'])
 		  # float -> str
 		  list(map(str,年末总人口.columns))
 		  ```
 	- **f-string**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  name = 'Peter'
 		  age = 23
@@ -43,7 +43,7 @@ collapsed:: true
 		  ```
 - **List**
 	- **打开嵌套列表**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  # Way 1:
 		  [n for a in target_list for n in a]#两层列表
@@ -51,7 +51,7 @@ collapsed:: true
 		  sum(target_list,[])
 		  ```
 	- **取出list重复数据并列出次数**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  from collections import Counter #引入Counter
 		  a = 面板数据.index
@@ -60,17 +60,17 @@ collapsed:: true
 		  print({key:value for key,value in b.items()if value > 9}) #展现重复元素和重复次数
 		  ```
 	- **list中检测含有某个类**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  any(isinstance(x, target_class) for x in target_list)
 		  ```
 	- **两个list取交集**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  list(set(lstA).intersection(set(lstB)))
 		  ```
 	- **list分组**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  a = [1,2,3,4,5,6,7,8,9,10,11]
 		  step = 3
@@ -78,7 +78,7 @@ collapsed:: true
 		  ```
 - **Dict**
 	- **创建空列表的字典**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  key = [1, 2, 3, 4]
 		  a = dict([(k,[]) for k in key])
@@ -86,13 +86,13 @@ collapsed:: true
 		  {1: [], 2: [], 3: [], 4: []}
 		  ```
 	- **字典删除多个key**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  myDict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 		  map(myDict.pop, ['a', 'c'])
 		  ```
 	- **字典排序**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  # want to sort dicts like this
 		  '''
@@ -125,7 +125,7 @@ collapsed:: true
 		  ```
 - **Excel related**
 	- **Excel表分割**
-collapsed:: true
+	  collapsed:: true
 		- ```python
 		  !pip install xlsxwriter
 		  import pandas as pd
@@ -144,7 +144,7 @@ collapsed:: true
 		  writer.save()
 		  ```
 	- **Excel 链接转图片方法**
-collapsed:: true
+	  collapsed:: true
 		- [Excel技巧，如何批量快速将图片链接转换为图片](https://www.nofuwb.com/2021/04/11/linktoimage/)
 		- ```
 		  1. 辅助列其中C2为表格中图片地址的单元格位置
@@ -154,8 +154,8 @@ collapsed:: true
 		  4. 选中所有图片, 右键, 大小和属性, 调整图片大小
 		  ```
 - **Other**
-	- **批量命名变量并批量调用*
-collapsed:: true
+	- **批量命名变量并批量调用**
+	  collapsed:: true
 		- ```python
 		  # 需要对不同城市创建不同城市名称的线性模型
 		  province_list = ['北京市','天津市','河北省','山西省','内蒙古自治区',

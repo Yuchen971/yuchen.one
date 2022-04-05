@@ -1,4 +1,5 @@
-alias:: Anaconda
+language:: Python
+type:: package manager
 
 - Debug
 	- conda command not find

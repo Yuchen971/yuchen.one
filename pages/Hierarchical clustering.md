@@ -79,7 +79,7 @@ topic:: hierarchical clustering, clustering, agglomerative methods, divisive met
 		- Then, merge (24) with 1, finally merge clusters (124) with (35) into a single cluster (12345)
 		- ![Screen Shot 2022-02-18 at 5.38.36 PM.png](../assets/Screen_Shot_2022-02-18_at_5.38.36_PM_1645234718290_0.png)
 		-
-	- **Distances in dendrogram (Cophenetic distances)** #recall
+	- **Distances in dendrogram ([[Distance/cophenetic]])** #recall
 	  collapsed:: true
 		- **Dendrogram distances (cophenetic distance) are not equal to true distances**
 		  			collapsed:: true

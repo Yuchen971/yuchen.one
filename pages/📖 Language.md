@@ -2,5 +2,5 @@
 - [[Python]]
 - [[R]]
 - [[Java]]
-- [[SQL]]
 - [[MongoDB]]
+- [[CheatSheet]]
