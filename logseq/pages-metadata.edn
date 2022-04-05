@@ -22,6 +22,12 @@
  {:block/name "2022-03-01 tuesday",
   :block/created-at 1647146305983,
   :block/updated-at 1647146305983}
+ {:block/name "2022-04-01 friday",
+  :block/created-at 1649134315336,
+  :block/updated-at 1649134315336}
+ {:block/name "2022-04-04 monday",
+  :block/created-at 1649134314285,
+  :block/updated-at 1649134314285}
  {:block/name "61f23283-1473-492c-b35d-6952253cb194",
   :block/created-at 1647146308332,
   :block/updated-at 1647146308332}
@@ -148,6 +154,15 @@
  {:block/name "b",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "backpropagate",
+  :block/created-at 1649134316864,
+  :block/updated-at 1649134316864}
+ {:block/name "backpropagation",
+  :block/created-at 1649134318458,
+  :block/updated-at 1649134318458}
+ {:block/name "batch size",
+  :block/created-at 1649134319861,
+  :block/updated-at 1649134319861}
  {:block/name "bayes classifier",
   :block/created-at 1647146304851,
   :block/updated-at 1647146304851}
@@ -166,6 +181,9 @@
  {:block/name "bayes' theorem",
   :block/created-at 1647146308945,
   :block/updated-at 1647146308945}
+ {:block/name "bayesian information criteria",
+  :block/created-at 1649134313408,
+  :block/updated-at 1649134313408}
  {:block/name "bernoulli distribution",
   :block/created-at 1647146308967,
   :block/updated-at 1647146308967}
@@ -178,6 +196,9 @@
  {:block/name "bernoulli trials",
   :block/created-at 1647146308185,
   :block/updated-at 1647146308185}
+ {:block/name "bgd",
+  :block/created-at 1649134319874,
+  :block/updated-at 1649134319874}
  {:block/name "bias variance trade off",
   :block/created-at 1647146304855,
   :block/updated-at 1647146304855}
@@ -187,18 +208,45 @@
  {:block/name "bias-variance tradeoff",
   :block/created-at 1647146306779,
   :block/updated-at 1647146306779}
+ {:block/name "bic",
+  :block/created-at 1649134313406,
+  :block/updated-at 1649134313406}
+ {:block/name "big o",
+  :block/created-at 1649134313504,
+  :block/updated-at 1649134313504}
+ {:block/name "binary",
+  :block/created-at 1649134322264,
+  :block/updated-at 1649134322264}
  {:block/name "binomial distribution",
   :block/created-at 1647146311244,
   :block/updated-at 1647146311244}
  {:block/name "binomial random variable",
   :block/created-at 1647146308190,
   :block/updated-at 1647146308190}
+ {:block/name "binomial regression",
+  :block/created-at 1649134319776,
+  :block/updated-at 1649134319776}
+ {:block/name "bootstrap",
+  :block/created-at 1649134315327,
+  :block/updated-at 1649134315327}
+ {:block/name "bootstrapping",
+  :block/created-at 1649134318766,
+  :block/updated-at 1649134318766}
+ {:block/name "bp",
+  :block/created-at 1649134318458,
+  :block/updated-at 1649134318458}
  {:block/name "bridge table",
   :block/created-at 1647146305952,
   :block/updated-at 1647146305952}
+ {:block/name "bugs",
+  :block/created-at 1649134313669,
+  :block/updated-at 1649134313669}
  {:block/name "c",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "calculus",
+  :block/created-at 1649134313630,
+  :block/updated-at 1649134313630}
  {:block/name "card",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
@@ -226,6 +274,9 @@
  {:block/name "cheatsheet/github",
   :block/created-at 1647146304985,
   :block/updated-at 1647146304985}
+ {:block/name "cheatsheet/mathnotation",
+  :block/created-at 1649134313631,
+  :block/updated-at 1649134313631}
  {:block/name "cheatsheet/mongodb",
   :block/created-at 1647146305063,
   :block/updated-at 1647146305063}
@@ -238,9 +289,18 @@
  {:block/name "cheatsheet/python",
   :block/created-at 1647146305152,
   :block/updated-at 1647146305152}
+ {:block/name "cheatsheet/pytorch",
+  :block/created-at 1649134313727,
+  :block/updated-at 1649134313727}
  {:block/name "cheatsheet/r",
   :block/created-at 1647146305191,
   :block/updated-at 1647146305191}
+ {:block/name "cheatsheet/sql",
+  :block/created-at 1649134313859,
+  :block/updated-at 1649134313859}
+ {:block/name "cheatsheet/sql/sqlite",
+  :block/created-at 1649134313857,
+  :block/updated-at 1649134313857}
  {:block/name "cheatsheet/tibble",
   :block/created-at 1647146305527,
   :block/updated-at 1647146305527}
@@ -259,6 +319,9 @@
  {:block/name "classification",
   :block/created-at 1647146306788,
   :block/updated-at 1647146306788}
+ {:block/name "classification and regression tree",
+  :block/created-at 1649134318017,
+  :block/updated-at 1649134318017}
  {:block/name "clt",
   :block/created-at 1647146304914,
   :block/updated-at 1647146304914}
@@ -316,6 +379,9 @@
  {:block/name "correlation",
   :block/created-at 1647146308196,
   :block/updated-at 1647146308196}
+ {:block/name "cost function",
+  :block/created-at 1649134320654,
+  :block/updated-at 1649134320654}
  {:block/name "cov",
   :block/created-at 1647146309191,
   :block/updated-at 1647146309191}
@@ -334,15 +400,15 @@
  {:block/name "cumulative distribution function",
   :block/created-at 1647146311432,
   :block/updated-at 1647146311432}
- {:block/name "cv",
-  :block/created-at 1647146309211,
-  :block/updated-at 1647146309211}
  {:block/name "d.f.",
   :block/created-at 1647146309246,
   :block/updated-at 1647146309246}
  {:block/name "data integrity",
   :block/created-at 1647146307872,
   :block/updated-at 1647146307872}
+ {:block/name "data mart",
+  :block/created-at 1649134314284,
+  :block/updated-at 1649134314284}
  {:block/name "data structure",
   :block/created-at 1647146308556,
   :block/updated-at 1647146308556}
@@ -361,9 +427,15 @@
  {:block/name "data warehousing dimensional model",
   :block/created-at 1647146305981,
   :block/updated-at 1647146305981}
+ {:block/name "data.table",
+  :block/created-at 1649134319183,
+  :block/updated-at 1649134319183}
  {:block/name "database",
   :block/created-at 1647146307596,
   :block/updated-at 1647146307596}
+ {:block/name "datamart",
+  :block/created-at 1649134314400,
+  :block/updated-at 1649134314400}
  {:block/name "dbscan",
   :block/created-at 1647146305589,
   :block/updated-at 1647146305589}
@@ -412,6 +484,18 @@
  {:block/name "distance",
   :block/created-at 1647146306322,
   :block/updated-at 1647146306322}
+ {:block/name "distance/cophenetic",
+  :block/created-at 1649134314854,
+  :block/updated-at 1649134314854}
+ {:block/name "distance/euclidean",
+  :block/created-at 1649134314802,
+  :block/updated-at 1649134314802}
+ {:block/name "distance/manhattan",
+  :block/created-at 1649134314819,
+  :block/updated-at 1649134314819}
+ {:block/name "distance/minkowski",
+  :block/created-at 1649134314799,
+  :block/updated-at 1649134314799}
  {:block/name "divisive methods",
   :block/created-at 1647146306340,
   :block/updated-at 1647146306340}
@@ -421,6 +505,9 @@
  {:block/name "done",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
+ {:block/name "dplyr",
+  :block/created-at 1649134319458,
+  :block/updated-at 1649134319458}
  {:block/name "dsci 559 introduction to data management",
   :block/created-at 1647146305805,
   :block/updated-at 1647146305805}
@@ -484,6 +571,9 @@
  {:block/name "extract-transform-load",
   :block/created-at 1647146306164,
   :block/updated-at 1647146306164}
+ {:block/name "extreme gradient boosting",
+  :block/created-at 1649134318099,
+  :block/updated-at 1649134318099}
  {:block/name "f distribution",
   :block/created-at 1647146309458,
   :block/updated-at 1647146309458}
@@ -517,6 +607,9 @@
  {:block/name "favorites",
   :block/created-at 1643949092471,
   :block/updated-at 1643949092471}
+ {:block/name "feature selection",
+  :block/created-at 1649134315328,
+  :block/updated-at 1649134315328}
  {:block/name "fully additive",
   :block/created-at 1647146304812,
   :block/updated-at 1647146304812}
@@ -538,15 +631,33 @@
  {:block/name "gaussian maximum likelihood classification",
   :block/created-at 1647146306784,
   :block/updated-at 1647146306784}
+ {:block/name "gcd",
+  :block/created-at 1649134315752,
+  :block/updated-at 1649134315752}
  {:block/name "gd",
   :block/created-at 1647146309544,
   :block/updated-at 1647146309544}
+ {:block/name "generalized linear model",
+  :block/created-at 1649134315326,
+  :block/updated-at 1649134315326}
+ {:block/name "generalized linear models",
+  :block/created-at 1649134319780,
+  :block/updated-at 1649134319780}
+ {:block/name "ggplot2",
+  :block/created-at 1649134319806,
+  :block/updated-at 1649134319806}
  {:block/name "github",
   :block/created-at 1647146306232,
   :block/updated-at 1647146306232}
+ {:block/name "glm",
+  :block/created-at 1649134319781,
+  :block/updated-at 1649134319781}
  {:block/name "gradient",
   :block/created-at 1647146306613,
   :block/updated-at 1647146306613}
+ {:block/name "gradient boosting decision tree",
+  :block/created-at 1649134318047,
+  :block/updated-at 1649134318047}
  {:block/name "gradient descent",
   :block/created-at 1647146309542,
   :block/updated-at 1647146309542}
@@ -622,6 +733,15 @@
  {:block/name "iterm2",
   :block/created-at 1647146306505,
   :block/updated-at 1647146306505}
+ {:block/name "jacobi matrix",
+  :block/created-at 1649134318835,
+  :block/updated-at 1649134318835}
+ {:block/name "jacobian matrix",
+  :block/created-at 1649134320123,
+  :block/updated-at 1649134320123}
+ {:block/name "jacobi矩阵",
+  :block/created-at 1649134320124,
+  :block/updated-at 1649134320124}
  {:block/name "java",
   :block/created-at 1647146306561,
   :block/updated-at 1647146306561}
@@ -661,9 +781,21 @@
  {:block/name "k邻近",
   :block/created-at 1647146306646,
   :block/updated-at 1647146306646}
+ {:block/name "l0 norm",
+  :block/created-at 1649134322623,
+  :block/updated-at 1649134322623}
+ {:block/name "l1 norm",
+  :block/created-at 1649134322635,
+  :block/updated-at 1649134322635}
+ {:block/name "l2 norm",
+  :block/created-at 1649134322650,
+  :block/updated-at 1649134322650}
  {:block/name "lasso regression",
   :block/created-at 1647146309995,
   :block/updated-at 1647146309995}
+ {:block/name "lasso 回归",
+  :block/created-at 1649134320326,
+  :block/updated-at 1649134320326}
  {:block/name "later",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
@@ -673,6 +805,9 @@
  {:block/name "lda分类器",
   :block/created-at 1647146306785,
   :block/updated-at 1647146306785}
+ {:block/name "learning rate",
+  :block/created-at 1649134319861,
+  :block/updated-at 1649134319861}
  {:block/name "least square",
   :block/created-at 1647146309896,
   :block/updated-at 1647146309896}
@@ -688,12 +823,21 @@
  {:block/name "leecode/recursion",
   :block/created-at 1647146306676,
   :block/updated-at 1647146306676}
+ {:block/name "leetcode",
+  :block/created-at 1649134315701,
+  :block/updated-at 1649134315701}
+ {:block/name "leetcode/recursion",
+  :block/created-at 1649134315756,
+  :block/updated-at 1649134315756}
  {:block/name "level of significance",
   :block/created-at 1647146311317,
   :block/updated-at 1647146311317}
  {:block/name "leverage statistic",
   :block/created-at 1647146309927,
   :block/updated-at 1647146309927}
+ {:block/name "light gradient boosting machine",
+  :block/created-at 1649134318068,
+  :block/updated-at 1649134318068}
  {:block/name "likehood",
   :block/created-at 1647146311283,
   :block/updated-at 1647146311283}
@@ -727,6 +871,9 @@
  {:block/name "logistic regression",
   :block/created-at 1647146306426,
   :block/updated-at 1647146306426}
+ {:block/name "loss function",
+  :block/created-at 1649134319859,
+  :block/updated-at 1649134319859}
  {:block/name "lr",
   :block/created-at 1647146310016,
   :block/updated-at 1647146310016}
@@ -742,6 +889,9 @@
  {:block/name "marginal distribution",
   :block/created-at 1647146306775,
   :block/updated-at 1647146306775}
+ {:block/name "mart",
+  :block/created-at 1649134318048,
+  :block/updated-at 1649134318048}
  {:block/name "mass function",
   :block/created-at 1647146311352,
   :block/updated-at 1647146311352}
@@ -751,12 +901,21 @@
  {:block/name "matrix",
   :block/created-at 1647146306610,
   :block/updated-at 1647146306610}
+ {:block/name "matrix calculus",
+  :block/created-at 1649134318841,
+  :block/updated-at 1649134318841}
  {:block/name "maximum a posteriori probability",
   :block/created-at 1647146310226,
   :block/updated-at 1647146310226}
  {:block/name "maximum likelihood estimation",
   :block/created-at 1647146310242,
   :block/updated-at 1647146310242}
+ {:block/name "mbgd",
+  :block/created-at 1649134319875,
+  :block/updated-at 1649134319875}
+ {:block/name "mclust",
+  :block/created-at 1649134316268,
+  :block/updated-at 1649134316268}
  {:block/name "mean squared error",
   :block/created-at 1647146304849,
   :block/updated-at 1647146304849}
@@ -769,12 +928,18 @@
  {:block/name "minkowski distance",
   :block/created-at 1647146306204,
   :block/updated-at 1647146306204}
+ {:block/name "ml model",
+  :block/created-at 1649134315625,
+  :block/updated-at 1649134315625}
  {:block/name "mle",
   :block/created-at 1647146310244,
   :block/updated-at 1647146310244}
  {:block/name "mlr",
   :block/created-at 1647146310338,
   :block/updated-at 1647146310338}
+ {:block/name "model based clustering",
+  :block/created-at 1649134315374,
+  :block/updated-at 1649134315374}
  {:block/name "mon-parametric model",
   :block/created-at 1647146308650,
   :block/updated-at 1647146308650}
@@ -817,6 +982,12 @@
  {:block/name "multinomial random vector",
   :block/created-at 1647146310300,
   :block/updated-at 1647146310300}
+ {:block/name "multinomial regression",
+  :block/created-at 1649134319777,
+  :block/updated-at 1649134319777}
+ {:block/name "multiple additive regression tree",
+  :block/created-at 1649134318049,
+  :block/updated-at 1649134318049}
  {:block/name "multiple linear regression",
   :block/created-at 1647146310011,
   :block/updated-at 1647146310011}
@@ -844,6 +1015,9 @@
  {:block/name "multivariate normal",
   :block/created-at 1647146310389,
   :block/updated-at 1647146310389}
+ {:block/name "mvn distribution",
+  :block/created-at 1649134315987,
+  :block/updated-at 1649134315987}
  {:block/name "naive bayes classifier",
   :block/created-at 1647146306781,
   :block/updated-at 1647146306781}
@@ -853,6 +1027,12 @@
  {:block/name "natural keys",
   :block/created-at 1647146310425,
   :block/updated-at 1647146310425}
+ {:block/name "negative binomial regression",
+  :block/created-at 1649134319776,
+  :block/updated-at 1649134319776}
+ {:block/name "neural network",
+  :block/created-at 1649134320684,
+  :block/updated-at 1649134320684}
  {:block/name "nn",
   :block/created-at 1647146311260,
   :block/updated-at 1647146311260}
@@ -871,6 +1051,9 @@
  {:block/name "non-hierarchical clustering",
   :block/created-at 1647146305587,
   :block/updated-at 1647146305587}
+ {:block/name "non-parametric",
+  :block/created-at 1649134315624,
+  :block/updated-at 1649134315624}
  {:block/name "non-parametric model",
   :block/created-at 1647146308644,
   :block/updated-at 1647146308644}
@@ -883,12 +1066,18 @@
  {:block/name "nonstationarity",
   :block/created-at 1647146310465,
   :block/updated-at 1647146310465}
+ {:block/name "norm",
+  :block/created-at 1649134322664,
+  :block/updated-at 1649134322664}
  {:block/name "normal distribution",
   :block/created-at 1647146308199,
   :block/updated-at 1647146308199}
  {:block/name "normal random variable",
   :block/created-at 1647146308192,
   :block/updated-at 1647146308192}
+ {:block/name "normalization",
+  :block/created-at 1649134322406,
+  :block/updated-at 1649134322406}
  {:block/name "now",
   :block/created-at 1643949092472,
   :block/updated-at 1643949092472}
@@ -952,6 +1141,9 @@
  {:block/name "poisson distribution",
   :block/created-at 1647146311366,
   :block/updated-at 1647146311366}
+ {:block/name "poisson regression",
+  :block/created-at 1649134315325,
+  :block/updated-at 1649134315325}
  {:block/name "posterior probability",
   :block/created-at 1647146308946,
   :block/updated-at 1647146308946}
@@ -988,12 +1180,18 @@
  {:block/name "probability mass function",
   :block/created-at 1647146308967,
   :block/updated-at 1647146308967}
+ {:block/name "purrr",
+  :block/created-at 1649134321341,
+  :block/updated-at 1649134321341}
  {:block/name "pvalue",
   :block/created-at 1647146310582,
   :block/updated-at 1647146310582}
  {:block/name "python",
   :block/created-at 1647146310636,
   :block/updated-at 1647146310636}
+ {:block/name "pytorch",
+  :block/created-at 1649134316868,
+  :block/updated-at 1649134316868}
  {:block/name "p值",
   :block/created-at 1647146310580,
   :block/updated-at 1647146310580}
@@ -1072,6 +1270,9 @@
  {:block/name "regular expressions",
   :block/created-at 1647146310761,
   :block/updated-at 1647146310761}
+ {:block/name "regularization",
+  :block/created-at 1649134319737,
+  :block/updated-at 1649134319737}
  {:block/name "reject region",
   :block/created-at 1647146310561,
   :block/updated-at 1647146310561}
@@ -1099,6 +1300,9 @@
  {:block/name "residual sum of square",
   :block/created-at 1647146310834,
   :block/updated-at 1647146310834}
+ {:block/name "rf",
+  :block/created-at 1649134318083,
+  :block/updated-at 1649134318083}
  {:block/name "ridge regression",
   :block/created-at 1647146309995,
   :block/updated-at 1647146309995}
@@ -1123,6 +1327,9 @@
  {:block/name "rss",
   :block/created-at 1647146309889,
   :block/updated-at 1647146309889}
+ {:block/name "scale",
+  :block/created-at 1649134319415,
+  :block/updated-at 1649134319415}
  {:block/name "scores vectors",
   :block/created-at 1647146310614,
   :block/updated-at 1647146310614}
@@ -1141,6 +1348,9 @@
  {:block/name "sensitivity",
   :block/created-at 1647146306768,
   :block/updated-at 1647146306768}
+ {:block/name "sgd",
+  :block/created-at 1649134319864,
+  :block/updated-at 1649134319864}
  {:block/name "sha",
   :block/created-at 1647146304976,
   :block/updated-at 1647146304976}
@@ -1162,6 +1372,9 @@
  {:block/name "snowflake schema",
   :block/created-at 1647146305967,
   :block/updated-at 1647146305967}
+ {:block/name "sparse model",
+  :block/created-at 1649134322536,
+  :block/updated-at 1649134322536}
  {:block/name "specificity",
   :block/created-at 1647146306766,
   :block/updated-at 1647146306766}
@@ -1174,9 +1387,6 @@
  {:block/name "sql properties",
   :block/created-at 1647146307871,
   :block/updated-at 1647146307871}
- {:block/name "sqlite",
-  :block/created-at 1647146307872,
-  :block/updated-at 1647146307872}
  {:block/name "sse",
   :block/created-at 1647146305592,
   :block/updated-at 1647146305592}
@@ -1186,6 +1396,9 @@
  {:block/name "sst",
   :block/created-at 1647146308510,
   :block/updated-at 1647146308510}
+ {:block/name "standardization",
+  :block/created-at 1649134322405,
+  :block/updated-at 1649134322405}
  {:block/name "star schema",
   :block/created-at 1647146305977,
   :block/updated-at 1647146305977}
@@ -1219,12 +1432,21 @@
  {:block/name "supervised learning",
   :block/created-at 1647146308646,
   :block/updated-at 1647146308646}
+ {:block/name "support vector machine",
+  :block/created-at 1649134317575,
+  :block/updated-at 1649134317575}
  {:block/name "surrogate key",
   :block/created-at 1647146305969,
   :block/updated-at 1647146305969}
  {:block/name "surrogate keys",
   :block/created-at 1647146311033,
   :block/updated-at 1647146311033}
+ {:block/name "svm",
+  :block/created-at 1649134317574,
+  :block/updated-at 1649134317574}
+ {:block/name "symmetric matrix",
+  :block/created-at 1649134322361,
+  :block/updated-at 1649134322361}
  {:block/name "synthetic key",
   :block/created-at 1647146311036,
   :block/updated-at 1647146311036}
@@ -1246,6 +1468,9 @@
  {:block/name "taylor expansion",
   :block/created-at 1647146306615,
   :block/updated-at 1647146306615}
+ {:block/name "templates",
+  :block/created-at 1649134322091,
+  :block/updated-at 1649134322091}
  {:block/name "test on one proportion",
   :block/created-at 1647146308374,
   :block/updated-at 1647146308374}
@@ -1255,6 +1480,9 @@
  {:block/name "test to compare k proportions",
   :block/created-at 1647146308375,
   :block/updated-at 1647146308375}
+ {:block/name "tibble",
+  :block/created-at 1649134322146,
+  :block/updated-at 1649134322146}
  {:block/name "tidyr",
   :block/created-at 1647146311159,
   :block/updated-at 1647146311159}
@@ -1282,6 +1510,9 @@
  {:block/name "tpr",
   :block/created-at 1647146310890,
   :block/updated-at 1647146310890}
+ {:block/name "trace",
+  :block/created-at 1649134322689,
+  :block/updated-at 1649134322689}
  {:block/name "transaction fact",
   :block/created-at 1647146308531,
   :block/updated-at 1647146308531}
@@ -1294,6 +1525,33 @@
  {:block/name "transformed data",
   :block/created-at 1647146307162,
   :block/updated-at 1647146307162}
+ {:block/name "tree models",
+  :block/created-at 1649134318111,
+  :block/updated-at 1649134318111}
+ {:block/name "tree-based",
+  :block/created-at 1649134318015,
+  :block/updated-at 1649134318015}
+ {:block/name "tree-based model",
+  :block/created-at 1649134318112,
+  :block/updated-at 1649134318112}
+ {:block/name "tree-based/cart",
+  :block/created-at 1649134318014,
+  :block/updated-at 1649134318014}
+ {:block/name "tree-based/decision tree",
+  :block/created-at 1649134318029,
+  :block/updated-at 1649134318029}
+ {:block/name "tree-based/gbdt",
+  :block/created-at 1649134318044,
+  :block/updated-at 1649134318044}
+ {:block/name "tree-based/lightgbm",
+  :block/created-at 1649134318065,
+  :block/updated-at 1649134318065}
+ {:block/name "tree-based/random forest",
+  :block/created-at 1649134318079,
+  :block/updated-at 1649134318079}
+ {:block/name "tree-based/xgboost",
+  :block/created-at 1649134318096,
+  :block/updated-at 1649134318096}
  {:block/name "ts",
   :block/created-at 1647146311136,
   :block/updated-at 1647146311136}
@@ -1327,6 +1585,9 @@
  {:block/name "unsupervised learning",
   :block/created-at 1647146308646,
   :block/updated-at 1647146308646}
+ {:block/name "variable selection",
+  :block/created-at 1649134319743,
+  :block/updated-at 1649134319743}
  {:block/name "variance",
   :block/created-at 1647146305676,
   :block/updated-at 1647146305676}
@@ -1356,7 +1617,7 @@
   :block/updated-at 1647146306424}
  {:block/name "yuchen",
   :block/created-at 1643955911809,
-  :block/updated-at 1649134299357}
+  :block/updated-at 1649134396894}
  {:block/name "z statistic",
   :block/created-at 1647146308684,
   :block/updated-at 1647146308684}
@@ -1396,6 +1657,9 @@
  {:block/name "中值定理",
   :block/created-at 1647146310279,
   :block/updated-at 1647146310279}
+ {:block/name "中心化",
+  :block/created-at 1649134322407,
+  :block/updated-at 1649134322407}
  {:block/name "中心极限定理",
   :block/created-at 1647146304913,
   :block/updated-at 1647146304913}
@@ -1414,6 +1678,9 @@
  {:block/name "二次判别分析",
   :block/created-at 1647146310678,
   :block/updated-at 1647146310678}
+ {:block/name "二进制",
+  :block/created-at 1649134315754,
+  :block/updated-at 1649134315754}
  {:block/name "二项分布",
   :block/created-at 1647146308965,
   :block/updated-at 1647146308965}
@@ -1429,6 +1696,9 @@
  {:block/name "人工神经网络",
   :block/created-at 1647146310140,
   :block/updated-at 1647146310140}
+ {:block/name "代价函数",
+  :block/created-at 1649134320655,
+  :block/updated-at 1649134320655}
  {:block/name "代理关键字",
   :block/created-at 1647146311033,
   :block/updated-at 1647146311033}
@@ -1468,6 +1738,9 @@
  {:block/name "决定系数",
   :block/created-at 1647146309086,
   :block/updated-at 1647146309086}
+ {:block/name "决策树",
+  :block/created-at 1649134318032,
+  :block/updated-at 1649134318032}
  {:block/name "决策边界",
   :block/created-at 1647146309224,
   :block/updated-at 1647146309224}
@@ -1507,12 +1780,18 @@
  {:block/name "参数模型",
   :block/created-at 1647146310599,
   :block/updated-at 1647146310599}
+ {:block/name "反向传播",
+  :block/created-at 1649134318457,
+  :block/updated-at 1649134318457}
  {:block/name "反方差",
   :block/created-at 1647146309687,
   :block/updated-at 1647146309687}
  {:block/name "变异数分析",
   :block/created-at 1647146308825,
   :block/updated-at 1647146308825}
+ {:block/name "变量选择",
+  :block/created-at 1649134319744,
+  :block/updated-at 1649134319744}
  {:block/name "召回率",
   :block/created-at 1647146310890,
   :block/updated-at 1647146310890}
@@ -1525,6 +1804,9 @@
  {:block/name "同方差性",
   :block/created-at 1647146306407,
   :block/updated-at 1647146306407}
+ {:block/name "同表型距离",
+  :block/created-at 1649134314856,
+  :block/updated-at 1649134314856}
  {:block/name "后验概率",
   :block/created-at 1647146308943,
   :block/updated-at 1647146308943}
@@ -1576,36 +1858,60 @@
  {:block/name "多项式随机变量",
   :block/created-at 1647146310299,
   :block/updated-at 1647146310299}
- {:block/name "实对称矩阵",
-  :block/created-at 1647146306179,
-  :block/updated-at 1647146306179}
+ {:block/name "学习率",
+  :block/created-at 1649134320343,
+  :block/updated-at 1649134320343}
  {:block/name "密度函数",
   :block/created-at 1647146306750,
   :block/updated-at 1647146306750}
  {:block/name "密度聚类",
   :block/created-at 1647146306119,
   :block/updated-at 1647146306119}
+ {:block/name "对称矩阵",
+  :block/created-at 1649134314900,
+  :block/updated-at 1649134314900}
+ {:block/name "导数",
+  :block/created-at 1649134318839,
+  :block/updated-at 1649134318839}
+ {:block/name "岭回归",
+  :block/created-at 1649134321661,
+  :block/updated-at 1649134321661}
  {:block/name "常态分布",
   :block/created-at 1647146310502,
   :block/updated-at 1647146310502}
  {:block/name "平稳型时间序列",
   :block/created-at 1647146311014,
   :block/updated-at 1647146311014}
+ {:block/name "广义线性模型",
+  :block/created-at 1649134319780,
+  :block/updated-at 1649134319780}
  {:block/name "异方差性",
   :block/created-at 1647146309564,
   :block/updated-at 1647146309564}
+ {:block/name "归一化",
+  :block/created-at 1649134322404,
+  :block/updated-at 1649134322404}
  {:block/name "微分中值定理",
   :block/created-at 1647146310279,
   :block/updated-at 1647146310279}
+ {:block/name "微积分",
+  :block/created-at 1649134318839,
+  :block/updated-at 1649134318839}
  {:block/name "总平方和",
   :block/created-at 1647146308510,
   :block/updated-at 1647146308510}
  {:block/name "总离差平方和",
   :block/created-at 1647146308509,
   :block/updated-at 1647146308509}
+ {:block/name "损失函数",
+  :block/created-at 1649134320653,
+  :block/updated-at 1649134320653}
  {:block/name "接收者操作特征曲线",
   :block/created-at 1647146307501,
   :block/updated-at 1647146307501}
+ {:block/name "支持向量机",
+  :block/created-at 1649134317576,
+  :block/updated-at 1649134317576}
  {:block/name "数据库原理",
   :block/created-at 1647146307874,
   :block/updated-at 1647146307874}
@@ -1669,6 +1975,12 @@
  {:block/name "极大似然估计",
   :block/created-at 1647146310110,
   :block/updated-at 1647146310110}
+ {:block/name "标准化",
+  :block/created-at 1649134321655,
+  :block/updated-at 1649134321655}
+ {:block/name "树模型",
+  :block/created-at 1649134318111,
+  :block/updated-at 1649134318111}
  {:block/name "核密度估计",
   :block/created-at 1647146309857,
   :block/updated-at 1647146309857}
@@ -1684,6 +1996,9 @@
  {:block/name "梯度下降法",
   :block/created-at 1647146309543,
   :block/updated-at 1647146309543}
+ {:block/name "梯度提升决策树",
+  :block/created-at 1649134318048,
+  :block/updated-at 1649134318048}
  {:block/name "检验统计量",
   :block/created-at 1647146309209,
   :block/updated-at 1647146309209}
@@ -1696,9 +2011,21 @@
  {:block/name "概率质量函数",
   :block/created-at 1647146310624,
   :block/updated-at 1647146310624}
+ {:block/name "欧几里得算法",
+  :block/created-at 1649134322484,
+  :block/updated-at 1649134322484}
  {:block/name "欧几里得距离",
   :block/created-at 1647146306206,
   :block/updated-at 1647146306206}
+ {:block/name "欧式距离",
+  :block/created-at 1649134314806,
+  :block/updated-at 1649134314806}
+ {:block/name "欧氏距离",
+  :block/created-at 1649134314805,
+  :block/updated-at 1649134314805}
+ {:block/name "正则化",
+  :block/created-at 1649134321546,
+  :block/updated-at 1649134321546}
  {:block/name "正则表达式",
   :block/created-at 1647146310763,
   :block/updated-at 1647146310763}
@@ -1726,6 +2053,9 @@
  {:block/name "泊松分布",
   :block/created-at 1647146311345,
   :block/updated-at 1647146311345}
+ {:block/name "泊松回归",
+  :block/created-at 1649134321278,
+  :block/updated-at 1649134321278}
  {:block/name "泰勒展开式",
   :block/created-at 1647146311109,
   :block/updated-at 1647146311109}
@@ -1753,6 +2083,9 @@
  {:block/name "特征方程",
   :block/created-at 1647146309069,
   :block/updated-at 1647146309069}
+ {:block/name "特征选择",
+  :block/created-at 1649134319744,
+  :block/updated-at 1649134319744}
  {:block/name "相关系数",
   :block/created-at 1647146309174,
   :block/updated-at 1647146309174}
@@ -1765,12 +2098,24 @@
  {:block/name "矩阵",
   :block/created-at 1647146310187,
   :block/updated-at 1647146310187}
+ {:block/name "矩阵求导",
+  :block/created-at 1649134318842,
+  :block/updated-at 1649134318842}
+ {:block/name "神经网络",
+  :block/created-at 1649134321081,
+  :block/updated-at 1649134321081}
  {:block/name "离散型随机变量",
   :block/created-at 1647146311348,
   :block/updated-at 1647146311348}
  {:block/name "离散随机变量",
   :block/created-at 1647146311346,
   :block/updated-at 1647146311346}
+ {:block/name "积分",
+  :block/created-at 1649134318840,
+  :block/updated-at 1649134318840}
+ {:block/name "稀疏模型",
+  :block/created-at 1649134320323,
+  :block/updated-at 1649134320323}
  {:block/name "第一型及第二型错误",
   :block/created-at 1647146309650,
   :block/updated-at 1647146309650}
@@ -1819,6 +2164,9 @@
  {:block/name "聚集事实表",
   :block/created-at 1647146308739,
   :block/updated-at 1647146308739}
+ {:block/name "自助法",
+  :block/created-at 1649134318766,
+  :block/updated-at 1649134318766}
  {:block/name "自然键",
   :block/created-at 1647146310425,
   :block/updated-at 1647146310425}
@@ -1828,6 +2176,24 @@
  {:block/name "自相关性",
   :block/created-at 1647146304873,
   :block/updated-at 1647146304873}
+ {:block/name "范数",
+  :block/created-at 1649134313624,
+  :block/updated-at 1649134313624}
+ {:block/name "范数/frobenius范数",
+  :block/created-at 1649134316858,
+  :block/updated-at 1649134316858}
+ {:block/name "范数/l0范数",
+  :block/created-at 1649134322620,
+  :block/updated-at 1649134322620}
+ {:block/name "范数/l1范数",
+  :block/created-at 1649134316857,
+  :block/updated-at 1649134316857}
+ {:block/name "范数/l2范数",
+  :block/created-at 1649134316856,
+  :block/updated-at 1649134316856}
+ {:block/name "范数/无穷范数",
+  :block/created-at 1649134322676,
+  :block/updated-at 1649134322676}
  {:block/name "蒙特卡洛方法",
   :block/created-at 1647146306932,
   :block/updated-at 1647146306932}
@@ -1852,6 +2218,9 @@
  {:block/name "调整r-square",
   :block/created-at 1647146308699,
   :block/updated-at 1647146308699}
+ {:block/name "贝叶斯信息准则",
+  :block/created-at 1649134313409,
+  :block/updated-at 1649134313409}
  {:block/name "贝叶斯决策边界",
   :block/created-at 1647146308911,
   :block/updated-at 1647146308911}
@@ -1867,12 +2236,24 @@
  {:block/name "质量函数",
   :block/created-at 1647146311347,
   :block/updated-at 1647146311347}
- {:block/name "超参",
-  :block/created-at 1647146306414,
-  :block/updated-at 1647146306414}
+ {:block/name "赤池信息量准则",
+  :block/created-at 1649134313225,
+  :block/updated-at 1649134313225}
+ {:block/name "超参数",
+  :block/created-at 1649134315295,
+  :block/updated-at 1649134315295}
+ {:block/name "距离",
+  :block/created-at 1649134315614,
+  :block/updated-at 1649134315614}
+ {:block/name "辗转相除法",
+  :block/created-at 1649134322486,
+  :block/updated-at 1649134322486}
  {:block/name "边缘分布",
   :block/created-at 1647146310142,
   :block/updated-at 1647146310142}
+ {:block/name "迹",
+  :block/created-at 1649134313625,
+  :block/updated-at 1649134313625}
  {:block/name "逆方差",
   :block/created-at 1647146309687,
   :block/updated-at 1647146309687}
@@ -1900,6 +2281,12 @@
  {:block/name "随机变量",
   :block/created-at 1647146310686,
   :block/updated-at 1647146310686}
+ {:block/name "随机森林",
+  :block/created-at 1649134318082,
+  :block/updated-at 1649134318082}
+ {:block/name "雅可比矩阵",
+  :block/created-at 1649134320123,
+  :block/updated-at 1649134320123}
  {:block/name "雪花型模型",
   :block/created-at 1647146310980,
   :block/updated-at 1647146310980}

@@ -1,5 +1,4 @@
 - [My Github page](https://github.com/Yuchen971)
-- [[🏛 USC_Analytics]]
 - [[💻 Internship & Research Experience]]
 - [[📔 Education]]
 - [[CheatSheet]]
